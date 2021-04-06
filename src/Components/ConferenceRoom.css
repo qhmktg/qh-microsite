@@ -1,0 +1,19 @@
+.conference-room-container{
+    padding:4rem 2rem;
+    background-color: #b5b5b5;
+}
+.conference-room-underline{
+    width: 50px;
+}
+
+.conference-room-header{
+    padding-bottom: 2.5rem;
+
+}
+
+.conference-room-container li{
+    font-size: 16px;
+    list-style: none;
+    text-transform: uppercase;
+    line-height: 2rem;
+}

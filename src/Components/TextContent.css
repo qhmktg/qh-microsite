@@ -1,0 +1,27 @@
+.text-content-container{
+    padding: 4rem 2rem;
+
+}
+
+.text-content-container h2{
+    text-align: left;
+    padding-bottom: 1.5rem;
+}
+.text-content-container p{
+    padding-bottom: 1.5rem;
+}
+
+.floor-to-ceiling{
+      background: url(https://via.placeholder.com/300) center center/cover no-repeat;
+    
+      /* align-items: center; */
+      /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
+      object-fit: contain;
+      justify-content: center;
+
+}
+
+.section-header h2{
+    padding-bottom: 0;
+
+}

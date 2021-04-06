@@ -1,0 +1,13 @@
+.furniture-container{
+    padding: 2rem;
+}
+
+.furniture-headline{
+    text-transform: uppercase;
+}
+
+.furniture-image{
+    width: 100%;
+    max-width: 1500px;
+    
+}

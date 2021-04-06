@@ -1,0 +1,31 @@
+.button-container{
+    padding:0 ;
+    text-align: right;
+
+}
+
+.button-row{
+    padding: 2rem;
+    align-content: right;
+}
+
+.button-flr-1{
+    background-color: blue;
+}
+
+.button-flr-2{
+    background-color: green;
+}
+
+.button-flr-3{
+    background-color: yellow;
+}
+
+.button-flr-4{
+    background-color: purple;
+}
+
+.button-flr-ll{
+    background-color: orange;
+
+}
