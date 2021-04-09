@@ -17,3 +17,10 @@
     text-transform: uppercase;
     line-height: 2rem;
 }
+
+hr { 
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid black;
+}

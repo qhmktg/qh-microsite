@@ -19,16 +19,17 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <hr></hr>
+                <hr className='footerhr'></hr>
                 <div className="footer-links">
                     <div className="footer-link-wrapper">
                         <div className="footer-link-items-secondary">
-                            <Link to='/quantum-health'><img alt='quantum-health logo' className='Logo' src={colorLogo} /></Link>
+                            <a target='_blank' href='https://quantum-health.com/'>
+                                <img alt='quantum-health logo' className='Logo' src={colorLogo} /></a>
                             <p>Copyright ©2021 Quantum Health. All Rights Reserved. </p>
-                            <Link to='/privacy-policy' target='_blank'>Privacy Policy</Link>  |
-                            <Link to='/terms-of-use' target='_blank'>  Terms of Use</Link>  |
-                            <Link to='/accreditation' target='_blank'>  Accreditation</Link>  |
-                            <Link to='/site-map' target='_blank'>  Site Map</Link>
+                            <a href='/' target='_blank'>Privacy Policy</a>  |
+                            <a href='/' target='_blank'>  Terms of Use</a>  |
+                            <a href='/' target='_blank'>  Accreditation</a>  |
+                            <a href='/' target='_blank'>  Site Map</a>
                             <div className='social-media-wrap'>
                                 <div className="social-logo">
                                     <Link to='/'><i class="fab fa-facebook-f"></i></Link>

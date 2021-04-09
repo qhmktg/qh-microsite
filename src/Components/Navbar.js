@@ -53,7 +53,7 @@ useEffect(()=>{
                             <Link to='/floor-ll' className='nav-links' onClick={closeMobileMenu}>Floor LL</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link target='_blank' to='/quantum-health' className='nav-links' onClick={closeMobileMenu}>Quantum-Health</Link>
+                            <a target='_blank' href='https://quantum-health.com/' className='nav-links' onClick={closeMobileMenu}>Quantum-Health</a>
                         </li>
                     </ul>
                     {

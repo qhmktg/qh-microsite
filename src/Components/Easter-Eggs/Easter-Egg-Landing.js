@@ -18,7 +18,7 @@ function EasterEggLanding(props) {
                     <h1>{props.Title}</h1>
                     <p>{props.info}</p>
                     <Button location={props.floor} buttonStyle='btn--outline' buttonSize="btn--small">
-                        Back to Floor 1
+                        {props.BackTo}
                         </Button>
                 </div>
                 <div className='easter-egg-card-container'>

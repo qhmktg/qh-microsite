@@ -7,7 +7,7 @@ function FindMe(props) {
         
         <div className='find-me-container'>
             <div className='find-me-content'>
-                <h1>{props.header}</h1>
+                <h3>{props.header}</h3>
             </div>
             <Link to={props.to}>
                 <img src={props.easterEggImage} />

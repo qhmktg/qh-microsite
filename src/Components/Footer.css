@@ -26,6 +26,10 @@
     font-size: 24px;
 }
 
+.footerhr{
+    border-top: 1px solid white;
+}
+
 .Logo{
     width: 100%;
     padding: 0 8rem;
@@ -172,4 +176,5 @@ color: #b1b1b1;
         justify-content: space-between;
 
     }
+    
 }

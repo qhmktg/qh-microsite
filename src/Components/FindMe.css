@@ -9,11 +9,14 @@
 .find-me-header{
 }
 
-.find-me-content > h1{
-    padding-bottom: .75rem;
+.find-me-content h3{
+    /* padding-bottom: .75rem; */
     text-align:left;
+    hanging-punctuation: first;
+    font-weight: 300;
+    text-transform:capitalize;
 }
 
 .find-me-content{
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.25rem;
 }

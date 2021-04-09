@@ -30,6 +30,11 @@ export default function floor1() {
                 easterEggImage="https://via.placeholder.com/300"
                 to='/892067' 
                 />
+                 <FindMe
+                header="test"
+                easterEggImage="https://via.placeholder.com/300"
+                to='/Gorilla' 
+                />
             <ConferenceRoom 
             rooms ={['Journey (Main)', 'Yellow Brick Room', 'Extra Mile', '1999']}/>
             <Footer />
