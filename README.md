@@ -2,11 +2,12 @@
 
 This project is a small micro site built to host Environmental branding informaiton. Accessable through the QR code for employees and visitors. 
 
-##Build Specifications
-*React
-*React-router
-*Node.js
-*Static export
+## Build Specifications
+
+* React
+* React-router
+* Node.js
+* Static export
 
 - - - -
 
