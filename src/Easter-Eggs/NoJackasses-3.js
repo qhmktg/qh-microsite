@@ -1,19 +1,20 @@
 import React from 'react'
 import EasterEggLanding from'./Easter-Egg-Landing'
 
-function Birds() {
+function NoJackasses() {
     return (
         <div>
             <EasterEggLanding 
             img='https://via.placeholder.com/300'
-            Title="The Birds"
+            Title="NO JACKASSES "
             info='test information'
-            floor="/floor-2"
-            BackTo="Back to floor 2"
+            floor="/floor-3"
+            BackTo="Back to floor 3"
+            imgalt=""
 
             />
         </div>
     )
 }
 
-export default Birds
+export default NoJackasses

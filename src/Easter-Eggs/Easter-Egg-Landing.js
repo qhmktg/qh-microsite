@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
-import { Button } from '../Button'
-import '../Button.css'
-import Footer from '../Footer'
+// import { Link } from 'react-router-dom'
+import { Button } from '../Components/Button'
+import '../Components/Button.css'
+import Footer from '../Components/Footer'
 import './Easter-Egg.css'
 
 function EasterEggLanding(props) {
@@ -12,7 +12,7 @@ function EasterEggLanding(props) {
 
 
                 <div className='easter-egg-image'>
-                    <img src={props.img} />
+                    <img src={props.img} alt={props.imgalt}/>
                 </div>
                 <div className='easter-egg-content'>
                     <h1>{props.Title}</h1>

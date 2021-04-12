@@ -32,9 +32,8 @@
 
 .Logo{
     width: 100%;
-    padding: 0 8rem;
-    max-width: 700px;
-
+    padding: 0 5rem;
+    max-width: 300px;
 }
 
 .footer-links{
@@ -176,5 +175,12 @@ color: #b1b1b1;
         justify-content: space-between;
 
     }
+  
     
 }
+
+@media screen and (max-height: 580px) {
+    .footer-link-items-secondary{
+        font-size: 11px ;
+    }
+  }

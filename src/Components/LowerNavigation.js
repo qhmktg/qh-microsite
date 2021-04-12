@@ -1,8 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { Button } from './Button'
 import './LowerNavigation.css'
-import floorll from './Pages/Floor-LL'
 
 function LowerNavigation() {
     return (

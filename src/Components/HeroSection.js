@@ -8,9 +8,6 @@ function HeroSection(props) {
         <div className='hero-container'>
             <h1>{props.head}</h1>
             <p>{props.body}</p>
-            <div className="hero-btns">
-                
-            </div>
         </div>
     )
 }

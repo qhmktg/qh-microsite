@@ -1,13 +1,13 @@
 import React from 'react'
-import '../../App.css'
-import Footer from '../Footer'
-import Furniture from '../Furniture'
-import HeroSection from '../HeroSection'
-import Pillar from '../Pillar'
-import MemberQuote from '../Member-Quote'
-import FindMe from '../FindMe'
-import ConferenceRoom from '../ConferenceRoom'
-import FindMeSection from '../FindMeSection'
+import '../App.css'
+import Footer from '../Components/Footer'
+import Furniture from '../Components/Furniture'
+import HeroSection from '../Components/HeroSection'
+import Pillar from '../Components/Pillar'
+import MemberQuote from '../Components/Member-Quote'
+import FindMe from '../Components/FindMe'
+import ConferenceRoom from '../Components/ConferenceRoom'
+import FindMeSection from '../Components/FindMeSection'
 
 export default function floor2() {
     return (

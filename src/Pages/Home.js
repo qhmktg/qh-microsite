@@ -1,10 +1,10 @@
-import '../../App.css'
+import '../App.css'
 import React from 'react';
-import HeroSection from '../HeroSection';
-import Cards from '../Cards';
-import Footer from '../Footer';
-import LowerNavigation from '../LowerNavigation';
-import '../TextContent.css'
+import HeroSection from '../Components/HeroSection';
+// import Cards from '../Cards';
+import Footer from '../Components/Footer'
+import LowerNavigation from '../Components/LowerNavigation';
+import '../Components/TextContent.css'
 
 function Home(){
     return(

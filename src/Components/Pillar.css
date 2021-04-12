@@ -18,3 +18,8 @@
 .pillar-content{
     padding-bottom: 1.5rem;
 }
+
+img{
+        width: 100%;
+        max-width: 1500px;
+}

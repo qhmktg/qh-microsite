@@ -1,32 +1,31 @@
 import './App.css';
-import React, { useEffect, useState, useLayoutEffect } from "react";
+import React, {  useState, useLayoutEffect } from "react";
 import Navbar from './Components/Navbar';
-import { BrowserRouter as Router, Switch, Route, withRouter } from 'react-router-dom';
-import Home from './Components/Pages/Home'
-import floor1 from './Components/Pages/Floor-1';
-import floor2 from './Components/Pages/Floor-2';
-import floor3 from './Components/Pages/Floor-3';
-import floor4 from './Components/Pages/Floor-4';
-import floorll from './Components/Pages/Floor-LL';
-import EasterEggLanding from './Components/Easter-Eggs/Easter-Egg-Landing'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Pages/Home'
+import floor1 from './Pages/Floor-1';
+import floor2 from './Pages/Floor-2';
+import floor3 from './Pages/Floor-3';
+import floor4 from './Pages/Floor-4';
+import floorll from './Pages/Floor-LL';
 import { EasterEggProvider } from './Components/context'
 import DesktopSplash from './Components/DesktopSplash'
 import ScrollToTop from './ScrollToTop'
 // Floor 1 imports
-import Gorilla from './Components/Easter-Eggs/Gorilla'
-import RubbySlippers from './Components/Easter-Eggs/892067'
+import Gorilla from './Easter-Eggs/Gorilla'
+import RubbySlippers from './Easter-Eggs/892067'
 // Floor 2 imports
-import WarmFuzzy from './Components/Easter-Eggs/warm-fuzzy-2'
-import Birds from './Components/Easter-Eggs/Birds-2'
-import PutEmUp from './Components/Easter-Eggs/Put-em-up-2'
+import WarmFuzzy from './Easter-Eggs/warm-fuzzy-2'
+import Birds from './Easter-Eggs/Birds-2'
+import PutEmUp from './Easter-Eggs/Put-em-up-2'
 // Floor 3 imports
-import Dumptruck from './Components/Easter-Eggs/DumpTruck-3'
-import NoJacasses from './Components/Easter-Eggs/NoJackasses-3'
-import Sparrows from './Components/Easter-Eggs/sparrows-3'
+import Dumptruck from './Easter-Eggs/DumpTruck-3'
+import NoJacasses from './Easter-Eggs/NoJackasses-3'
+import Sparrows from './Easter-Eggs/sparrows-3'
 // Floor 4 imports
-import Lego from './Components/Easter-Eggs/Lego-4'
-import Brain from './Components/Easter-Eggs/Brain-4'
-import Lollipops from './Components/Easter-Eggs/Lollipops-4'
+import Lego from './Easter-Eggs/Lego-4'
+import Brain from './Easter-Eggs/Brain-4'
+import Lollipops from './Easter-Eggs/Lollipops-4'
 
 
 

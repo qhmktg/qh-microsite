@@ -1,19 +1,18 @@
 import React from 'react'
 import EasterEggLanding from'./Easter-Egg-Landing'
-
-function Sparrows() {
+function RubbySlippers() {
     return (
         <div>
             <EasterEggLanding 
             img='https://via.placeholder.com/300'
-            Title="I’D BE FRIENDS WITH ALL THE SPARROWS"
+            Title="test"
             info='test information'
-            floor="/floor-3"
-            BackTo="Back to floor 3"
+            floor="/floor-1"
+            imgalt=""
 
             />
         </div>
     )
 }
 
-export default Sparrows
+export default RubbySlippers

@@ -1,20 +1,20 @@
 import React from 'react'
 import EasterEggLanding from'./Easter-Egg-Landing'
 
-function DumpTruck() {
+function Lego() {
     return (
         <div>
             <EasterEggLanding 
             img='https://via.placeholder.com/300'
-            Title="“YOU COULDN’T HEAR A DUMP TRUCK DIVING THROUGH
-            A NITROGLYCERIN PLANT.”"
+            Title="LEGO MY PILLARS"
             info='test information'
-            floor="/floor-3"
-            BackTo="Back to floor 3"
+            floor="/floor-4"
+            BackTo="Back to floor 4"
+            imgalt=""
 
             />
         </div>
     )
 }
 
-export default DumpTruck
+export default Lego

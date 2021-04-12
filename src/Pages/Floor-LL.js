@@ -1,20 +1,20 @@
 import React from 'react'
-import '../../App.css'
-import Footer from '../Footer'
-import Furniture from '../Furniture'
-import HeroSection from '../HeroSection'
-import Pillar from '../Pillar'
-import MemberQuote from '../Member-Quote'
-import FindMe from '../FindMe'
-import ConferenceRoom from '../ConferenceRoom'
-import FindMeSection from '../FindMeSection'
+import '../App.css'
+import Footer from '../Components/Footer'
+import Furniture from '../Components/Furniture'
+import HeroSection from '../Components/HeroSection'
+import Pillar from '../Components/Pillar'
+import MemberQuote from '../Components/Member-Quote'
+import FindMe from '../Components/FindMe'
+import ConferenceRoom from '../Components/ConferenceRoom'
+import FindMeSection from '../Components/FindMeSection'
 
-export default function floor3() {
+export default function floorll() {
     return (
         <>
         <HeroSection
             body="Making a house feel like home involves making it a reflection of those who live there. So naturally, we involved Warriors in the decision making for everything from floor design and furnishings, to amenities and artwork. We don’t just want to make it a cool place to work — we want to make our new home a reflection of the Warriors within. "
-            head="Floor 3"
+            head="Floor LL"
             label='Adventure'
         />
         <Furniture
@@ -25,18 +25,9 @@ export default function floor3() {
             quote={[<strong>&quot; To My Quantum Health Warrior:</strong>, "How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done. You are making a difference in the world. Don’t ever forget that.quot;"]} />
         <FindMeSection />
         <FindMe
-            header="“YOU COULDN’T HEAR A DUMP TRUCK DIVING THROUGH
-            A NITROGLYCERIN PLANT.”"
+            header="test"
             easterEggImage="https://via.placeholder.com/300"
-            to='/DumpTruck' />
-               <FindMe
-            header="I’D BE FRIENDS WITH ALL THE SPARROWS"
-            easterEggImage="https://via.placeholder.com/300"
-            to='/Sparrows' />
-               <FindMe
-            header="NO JACKASSES"
-            easterEggImage="https://via.placeholder.com/300"
-            to='/NoJackasses' />
+            to='/Easter-Egg-Landing' />
         <ConferenceRoom 
         rooms ={['room1', 'room2', 'room3']}/>
         <Footer />
