@@ -1,0 +1,10 @@
+# ADD IN .HTACCESS FILE
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
+
+order deny, allow
+#Replace the below 96.28.240.144 with your IP address 
+deny from all
+allow from 96.28.240.144

@@ -37,26 +37,26 @@ export default function floor1() {
                     easterEggImage="https://via.placeholder.com/300"
                     to='/Gorilla'
                 /> */}
-            </div>
             <div className="cards">
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards_items">
                         <CardItem 
-                        src={rubbySlippers} 
-                        text="Rubby Slippers"
-                        label='Adventure'
-                        path='/892067'
-                        CardStyle='green'/>
-                          <CardItem 
-                        src='https://via.placeholder.com/300' 
-                        text="Gorilla in the Room"
-                        label='Adventure'
-                        path='/Gorilla'
-                        CardStyle='yellow'/>
+                            src='https://via.placeholder.com/300' 
+                            text="Rubby Slippers"
+                            label='Adventure'
+                            path='/892067'
+                            CardStyle='blue'/>
+                        <CardItem 
+                            src='https://via.placeholder.com/300' 
+                            text="Gorilla in the Room"
+                            label='Adventure'
+                            path='/Gorilla'
+                            CardStyle='blue'/>
                     </ul>
                 </div>
             </div>
+        </div>
         </div>
 
             <ConferenceRoom

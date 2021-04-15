@@ -6,7 +6,10 @@
   h1 {
     text-align: center;
   }
-  
+  h5{
+    font-family: 'Avenir Next', sans-serif;
+    font-weight: 300;
+  }
   .cards__container {
     display: flex;
     flex-flow: column;
@@ -99,7 +102,7 @@
   .cards__item__info {
     /* background-color: #71A300; */
 
-    padding: 20px 30px 30px;
+    padding: 20px 30px ;
   }
   
   .cards__item__text {
@@ -110,7 +113,7 @@
   }
   .green{
     background-color: #71A300 !important;
-  color: #333333 !important;
+  color: white !important;
   }
 
   .yellow{

@@ -8,6 +8,7 @@ import MemberQuote from '../Components/Member-Quote'
 import FindMe from '../Components/FindMe'
 import ConferenceRoom from '../Components/ConferenceRoom'
 import FindMeSection from '../Components/FindMeSection'
+import CardItem from '../Components/CardItem'
 
 export default function floor2() {
     return (
@@ -23,19 +24,41 @@ export default function floor2() {
         <Pillar />
         <MemberQuote
             quote={[<strong>&quot; To My Quantum Health Warrior:</strong>, "How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done. You are making a difference in the world. Don’t ever forget that.quot;"]} />
-        <FindMeSection />
-        <FindMe
+       <div>
+            <FindMeSection />
+        {/*<FindMe
             header="Warm and Fuzzy, With a Secret Weapon"
             easterEggImage="https://via.placeholder.com/300"
             to='/WarmAndFuzzy' />
-               <FindMe
+                <FindMe
             header="The Birds"
             easterEggImage="https://via.placeholder.com/300"
             to='/TheBirds' />
                <FindMe
             header="Put 'em Up, Put 'em Up"
             easterEggImage="https://via.placeholder.com/300"
-            to='/PutEmUp' />
+            to='/PutEmUp' /> */}
+            <div className="cards">
+            <div className="cards__container">
+                <div className="cards__wrapper">
+                    <ul className="cards_items">
+                        <CardItem 
+                        src='https://via.placeholder.com/300'  
+                        text="Rubby Slippers"
+                        label='Adventure'
+                        path='/892067'
+                        CardStyle='green'/>
+                          <CardItem 
+                        src='https://via.placeholder.com/300' 
+                        text="Gorilla in the Room"
+                        label='Adventure'
+                        path='/Gorilla'
+                        CardStyle='green'/>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
         <ConferenceRoom 
         rooms ={['RAMP UP CONFERENCE ROOM (Main)', 'THE SHIELD', 'SUPER HERO']}/>
         <Footer />
