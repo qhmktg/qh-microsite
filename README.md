@@ -1,3 +1,16 @@
+# Project Synopsis
+
+This project is a small micro site built to host Environmental branding informaiton. Accessable through the QR code for employees and visitors. 
+
+## Build Specifications
+
+* React
+* React-router
+* Node.js
+* Static export
+
+- - - -
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
