@@ -32,15 +32,13 @@ function Footer() {
                             <a href='/' target='_blank'>  Site Map</a>
                             <div className='social-media-wrap'>
                                 <div className="social-logo">
-                                    <Link to='/'><i class="fab fa-facebook-f"></i></Link>
-                                    <Link to='/'><i class="fab fa-linkedin-in"></i></Link>
-                                    <Link to='/'><i class="fab fa-twitter"></i></Link>
-                                    <Link to='/'><i class="fab fa-youtube"></i></Link>
-                                    <Link to='/'><i class="fab fa-instagram"></i></Link>
-                                   
+                                    <a href="https://www.facebook.com/QuantumHealth1"><i class="fab fa-facebook-f" target='_blank'></i></a>
+                                    <a href="https://www.linkedin.com/company/quantum-health/mycompany/" target='_blank'><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://twitter.com/QuantumHealth1" target='_blank'><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCc59JqvFMJxkWWGJXiJRUdg" target='_blank'><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.instagram.com/quantum_health/" target='_blank'><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>

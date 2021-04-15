@@ -25,7 +25,7 @@ export default function floor2() {
             quote={[<strong>&quot; To My Quantum Health Warrior:</strong>, "How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done. You are making a difference in the world. Don’t ever forget that.quot;"]} />
         <FindMeSection />
         <FindMe
-            header="WARM AND FUZZY, WITH A SECRET WEAPON"
+            header="Warm and Fuzzy, With a Secret Weapon"
             easterEggImage="https://via.placeholder.com/300"
             to='/WarmAndFuzzy' />
                <FindMe
@@ -33,7 +33,7 @@ export default function floor2() {
             easterEggImage="https://via.placeholder.com/300"
             to='/TheBirds' />
                <FindMe
-            header="PUT ‘EM UP, PUT ‘EM UP"
+            header="Put 'em Up, Put 'em Up"
             easterEggImage="https://via.placeholder.com/300"
             to='/PutEmUp' />
         <ConferenceRoom 

@@ -8,8 +8,8 @@ function RubbySlippers() {
             Title="test"
             info='test information'
             floor="/floor-1"
+            BackTo="Back to floor 1"
             imgalt=""
-
             />
         </div>
     )
