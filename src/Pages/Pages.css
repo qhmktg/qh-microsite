@@ -12,26 +12,49 @@
 background-color: var(--green) !important;
 align-items: center; 
  justify-content: center;
+ background-image:  url("../images/welcome2.png");
+ background-repeat: no-repeat;
+ background-size: auto 50%;
+ background-position-x: -5rem;
+}
+
+.home-heart-sheild{
+stroke: black;
+mix-blend-mode: multiply;
+width:auto; 
+height: 40vh;
+margin: -40px;
+z-index: 0;
+
 }
 
 .Home-bg .hero-copy{ 
-margin-top: -200px;
+z-index: 1;
+
 }
 .floor-1-bg{
 background-color: var(--teal) !important;
-
+background-image: url("../images/QH_headquarters_dublin_01_1st.png");
+background-blend-mode: multiply;
+background-position: -5rem -10rem;
 }
 .floor-2-bg{
 background-color: var(--green) !important;
-
+background-image: url("../images/QH_headquarters_dublin_01_1st.png");
+background-blend-mode: multiply;
+background-position: -20rem -15rem;
 }
 .floor-3-bg{
 background-color: var(--purple) !important;
-
+background-image: url("../images/QH_headquarters_dublin_01_1st.png");
+background-blend-mode: multiply;
+background-position: -45rem -45rem;
 }
 .floor-4-bg{
 background-color: var(--orange) !important;
-
+background-image: url("../images/QH_headquarters_dublin_01_1st.png");
+background-blend-mode: multiply;
+background-position: -75rem -80rem;
 }
 
 
@@ -84,8 +107,6 @@ border: 1px black solid !important;
     max-width: 200px !important;
 
     }
- 
-    
     h3{
     font-size:1.5rem; 
     }

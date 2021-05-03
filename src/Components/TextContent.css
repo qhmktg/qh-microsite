@@ -12,13 +12,13 @@
 }
 
 .floor-to-ceiling{
-      background: url(https://via.placeholder.com/300) center center/cover no-repeat;
-    
-      /* align-items: center; */
-      /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
+      background: url("../images/210215_building_graphics_3306_TOTO_wall_more_yellow2.png") bottom center/cover no-repeat;
       object-fit: contain;
+      background-size: auto 100%;
+      height: 100vh;
       justify-content: center;
-
+      background-color: rgb(231,174,29);
+    background-size: 100% auto;
 }
 
 .section-header h2{

@@ -11,6 +11,8 @@ import FindMeSection from '../Components/FindMeSection'
 import CardItem from '../Components/CardItem'
 import '../Components/Cards.css'
 import rubbySlippers from '../images/210215_building_graphics_3135_f.png'
+import floor1chair from '../images/210304_furniture_fixtures_4250_orange_chair_reading.png'
+import stickWithEm from '../images/Stick with Em.svg'
 export default function floor1() {
     return (
         <>
@@ -21,26 +23,18 @@ export default function floor1() {
                 style="floor-1-bg"
             />
             <Furniture
-                img='https://via.placeholder.com/300'
+                img={floor1chair}
                 headline="THIS HIGH-TOP GOT 77 THUMBS UP FOR CONNECTIVITY AND FIVE STARS FOR PRIVACY." />
             <Pillar 
             pillar="Stick with Me" 
             pillarStyle="pillarBlue"
+            pillarImage={stickWithEm}
             />
             <MemberQuote
                 quote={[<strong>&quot;To My Quantum Health Warrior:</strong>, " How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done. You are making a difference in the world. Don’t ever forget that.", <span>&quot;</span>]} />
             <div>
                 <FindMeSection />
-                {/* <FindMe
-                    header="Ruby Slippers"
-                    easterEggImage="https://via.placeholder.com/300"
-                    to='/892067'
-                />
-                <FindMe
-                    header="Gorilla In The Room"
-                    easterEggImage="https://via.placeholder.com/300"
-                    to='/Gorilla'
-                /> */}
+      
             <div className="cards">
             <div className="cards__container">
                 <div className="cards__wrapper">

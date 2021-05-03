@@ -11,24 +11,45 @@
 
 .button-flr-1{
     background-color: #008E92;
+    background-image: url("../images/QH_headquarters_dublin_01_1st.png");
+    background-blend-mode: multiply;
+    background-position: -5rem -10rem;
+
 }
 
 .button-flr-2{
     background-color: #71A300;
+    background-image: url("../images/QH_headquarters_dublin_01_1st.png");
+    background-blend-mode: multiply;
+    background-position: -20rem -15rem;
 }
 
 .button-flr-3{
     background-color: #653C5F;
-
+    background-image: url("../images/QH_headquarters_dublin_01_1st.png");
+    background-blend-mode: multiply;
+    background-position: -45rem -45rem;
 }
 
 .button-flr-4{
     background-color: #DF6F34;
-
+    background-image: url("../images/QH_headquarters_dublin_01_1st.png");
+    background-blend-mode: multiply;
+    background-position: -75rem -80rem;
 }
 
 .button-flr-ll{
     background-color: #FFCD00;
+    background-image: url("../images/QH_headquarters_dublin_00_LL.png");
+    background-blend-mode: multiply;
+    background-position: 3rem 62rem;
+    
+}
 
-
+.button-flr-ll .btn--outline{
+background-color: transparent;
+color: black;
+padding: 8px 15px;
+transition: all 0.3s ease-out;
+border: 2px solid black;
 }

@@ -10,6 +10,8 @@ import './Pages.css'
 import '../Components/HeroSection.css'
 import '../App.css'
 import '../Pages/Pages.css'
+
+import heartSheild from '../images/Heart-sheild.svg'
 function Home() {
     return (
         <>
@@ -25,6 +27,8 @@ function Home() {
                     <br />
                     <span className="Home">Home</span>
                 </h1>
+                <img className='home-heart-sheild' src={heartSheild} />
+
             </div>
             {/* --------Middle Content-------- */}
             <div className='text-content-container'>
@@ -50,7 +54,7 @@ function Home() {
 
                 <p><strong>Welcome to Ohio’s Emarald City (aka Dublin) </strong>All the Wizard of Oz references came from the branding initiative in 2013-2014, where members, clients, consultants and Warriors drew several parallels between our members’ healthcare journeys and the famed yellow-brick journey to the Emerald City. And the brains, heart and courage we provide our members along the way.</p>
                 <h3>We’re not just a research-based company; we’re a research-based brand.</h3>
-                <img src='https://via.placeholder.com/300' className='' />
+                {/* <img src='https://via.placeholder.com/300' className='' /> */}
             </div>
             {/* --------Lower Navigation-------- */}
 
