@@ -9,7 +9,8 @@ import FindMe from '../Components/FindMe'
 import ConferenceRoom from '../Components/ConferenceRoom'
 import FindMeSection from '../Components/FindMeSection'
 import CardItem from '../Components/CardItem'
-
+import floor2Chair from '../images/chair_fake_shadow.png'
+import pillarWarrior from '../images/Warrior.svg'
 export default function floor2() {
     return (
         <>
@@ -23,11 +24,12 @@ export default function floor2() {
                         {/* --------Furniture call out section-------- */}
 
             <Furniture
-                img='https://via.placeholder.com/300'
+                img={floor2Chair}
                 headline="THIS HIGH-TOP GOT 77 THUMBS UP FOR CONNECTIVITY AND FIVE STARS FOR PRIVACY." />
             <Pillar 
              pillar="Warrior" 
-             pillarStyle="pillarGreen"/>
+             pillarStyle="pillarGreen"
+             pillarImage={pillarWarrior}/>
             <MemberQuote
                 quote={[<strong>&quot; To My Quantum Health Warrior:</strong>, "How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done. You are making a difference in the world. Don’t ever forget that.quot;"]} />
             <div>

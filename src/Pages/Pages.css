@@ -32,12 +32,19 @@ z-index: 0;
 z-index: 1;
 
 }
-.floor-1-bg{
-background-color: var(--teal) !important;
-background-image: url("../images/QH_headquarters_dublin_01_1st.png");
+.hero-container .floor-1-bg {
+background-color: var(--teal) ;
+
+background-image: url("../images/QH_headquarters_dublin_01_1st.png") !important;
 background-blend-mode: multiply;
 background-position: -5rem -10rem;
 }
+
+.floor-1-bg{
+
+}
+
+
 .floor-2-bg{
 background-color: var(--green) !important;
 background-image: url("../images/QH_headquarters_dublin_01_1st.png");

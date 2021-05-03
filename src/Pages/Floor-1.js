@@ -10,9 +10,10 @@ import ConferenceRoom from '../Components/ConferenceRoom'
 import FindMeSection from '../Components/FindMeSection'
 import CardItem from '../Components/CardItem'
 import '../Components/Cards.css'
-import rubbySlippers from '../images/210215_building_graphics_3135_f.png'
+import rubbySlippers from '../images/ruby_slippers_iso_transparent-shadow.png'
 import floor1chair from '../images/210304_furniture_fixtures_4250_orange_chair_reading.png'
 import stickWithEm from '../images/Stick with Em.svg'
+
 export default function floor1() {
     return (
         <>
@@ -25,6 +26,9 @@ export default function floor1() {
             <Furniture
                 img={floor1chair}
                 headline="THIS HIGH-TOP GOT 77 THUMBS UP FOR CONNECTIVITY AND FIVE STARS FOR PRIVACY." />
+              <div className='text-content-container'>
+                <p>Don’t be baffled by the baffles: they do have a function — a very important one. They help absorb light and sound for better ambiance and noise reduction so you can stick to whatever you’re doing, without interruption. Looking cool is just gravy </p>
+            </div>
             <Pillar 
             pillar="Stick with Me" 
             pillarStyle="pillarBlue"
@@ -40,7 +44,7 @@ export default function floor1() {
                 <div className="cards__wrapper">
                     <ul className="cards_items">
                         <CardItem 
-                            src='https://via.placeholder.com/300' 
+                            src={rubbySlippers} 
                             text="Rubby Slippers"
                             label='Adventure'
                             path='/892067'
