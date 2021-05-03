@@ -26,13 +26,13 @@ function Footer() {
                             <a target='_blank' href='https://quantum-health.com/'>
                                 <img alt='quantum-health logo' className='Logo' src={colorLogo} /></a>
                             <p>Copyright ©2021 Quantum Health. All Rights Reserved. </p>
-                            <a href='/' target='_blank'>Privacy Policy</a>  |
-                            <a href='/' target='_blank'>  Terms of Use</a>  |
-                            <a href='/' target='_blank'>  Accreditation</a>  |
+                            <a href='https://quantum-health.com/Privacy-Policy.shtml' target='_blank'>Privacy Policy</a>  |
+                            <a href='https://quantum-health.com/Terms.shtml' target='_blank'>  Terms of Use</a>  |
+                            <a href='https://quantum-health.com/Accreditation.shtml' target='_blank'>  Accreditation</a>  |
                             <a href='/' target='_blank'>  Site Map</a>
                             <div className='social-media-wrap'>
                                 <div className="social-logo">
-                                    <a href="https://www.facebook.com/QuantumHealth1"><i class="fab fa-facebook-f" target='_blank'></i></a>
+                                    <a href="https://www.facebook.com/QuantumHealth1" target='_blank'><i class="fab fa-facebook-f" target='_blank'></i></a>
                                     <a href="https://www.linkedin.com/company/quantum-health/mycompany/" target='_blank'><i class="fab fa-linkedin-in"></i></a>
                                     <a href="https://twitter.com/QuantumHealth1" target='_blank'><i class="fab fa-twitter"></i></a>
                                     <a href="https://www.youtube.com/channel/UCc59JqvFMJxkWWGJXiJRUdg" target='_blank'><i class="fab fa-youtube"></i></a>

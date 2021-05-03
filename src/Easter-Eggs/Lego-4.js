@@ -7,10 +7,11 @@ function Lego() {
             <EasterEggLanding 
             img='https://via.placeholder.com/300'
             Title="LEGO MY PILLARS"
-            info='test information'
+            info='We know the building blocks of our business: sanctuary, sticking with ‘em, warrioring, friendship and expertise. Shannon Skaggs takes these building blocks literally.'
             floor="/floor-4"
             BackTo="Back to floor 4"
             imgalt=""
+            style="floor-4-bg"
 
             />
         </div>

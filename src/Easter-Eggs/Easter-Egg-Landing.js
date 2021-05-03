@@ -5,7 +5,10 @@ import '../Components/Button.css'
 import Footer from '../Components/Footer'
 import './Easter-Egg.css'
 
+const STYLES =['floor-1-bg', 'floor-2-bg', 'floor-3-bg', 'floor-4-bg', 'floor-LL-bg'];
+
 function EasterEggLanding(props) {
+    const checkStyling = STYLES.includes(props.style) ? props.style : STYLES[0];
     return (
         <div>
             <div className="easter-egg-container">
@@ -22,7 +25,7 @@ function EasterEggLanding(props) {
                         </Button>
                 </div>
                 <div className='easter-egg-card-container'>
-                    <div className='easter-egg-card'></div>
+                    <div className={`easter-egg-card ${checkStyling}`}></div>
                 </div>
             </div>
             <Footer />

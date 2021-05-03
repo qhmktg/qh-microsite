@@ -1,48 +1,63 @@
 import '../App.css'
 import React from 'react';
 import HeroSection from '../Components/HeroSection';
-// import Cards from '../Cards';
 import Footer from '../Components/Footer'
 import LowerNavigation from '../Components/LowerNavigation';
 import '../Components/TextContent.css'
-
-function Home(){
-    return(
+import '../Components/HomePillars'
+import HomePillars from '../Components/HomePillars';
+import './Pages.css'
+import '../Components/HeroSection.css'
+import '../App.css'
+import '../Pages/Pages.css'
+function Home() {
+    return (
         <>
-        <HeroSection 
+            {/* <HeroSection 
         head={[<span className="Welcome">Welcome</span>, <br />, <span className="Home">Home</span>]}
+        style="Home-bg"      
+        className='floor-LL-bg'
+        /> */}
 
-        body="Making"
-        label='Adventure'
-        className='mobile-only'
-        />
-        {/* <Cards/> */}
-        {/* --------Middle Content-------- */}
-        <div className='text-content-container'>
-             <h2>“It’s not the destination, it’s the journey,” people say. For us, it’s both.</h2>
-            <p>Making this building feel like our home was a journey in itself. However, some things just fell into place like it was meant to be: five floors; five foundational pillars. Also, we brought some surprises over from Huntington Park to make it feel like home right away. These “Easter eggs” are nods to Quantum Health’s earlier years. Take a journey around the building to find all the surprises and get acquainted to your new home. </p>
-            <p>At first, it may seem like you’ve been zapped into Oz, but that’s not (completely) it. There’s a backstory that begins during a 2013 branding workshop — a true one about member journeys and the brains, heart and courage it takes to guide those members through. It also involves armed bunnies.</p>
-            <p>You are the heart and soul of this company. You are the reason we succeed. You are how we change the world. That’s why we’re building a destination where you can thrive. </p>
-            <h3>Welcome to the Emerald City. (aka Dublin, Ohio)</h3>
-        </div>
-        <div className='text-content-container'>
-            
-        </div>
-        {/* --------Image Content-------- */}
-        <div className='text-content-container floor-to-ceiling'>
-        <div className="section-header">
-                <h2>Pillar</h2>
-                <hr className="pillar-underline" />
+            <div className="hero-container Home-bg">
+                <h1 className='hero-copy'>
+                    <span className="Welcome">Welcome</span>
+                    <br />
+                    <span className="Home">Home</span>
+                </h1>
             </div>
-             <p><strong>The lobby floor</strong> — our modernized nod to the winding yellow-brick road, reminiscent of the Quantum Health logo.</p>
-            <p><strong>The Warrior creed is ever present</strong> — on the lobby walls and the frosted windows of every large conference room.</p>
-            <p><strong>Look at the ceiling</strong> — the baffles aren’t just for looks; they help absorb light and sound for better ambiance and noise reduction so you can stick to whatever you’re doing, without interruption.</p>
-            <img src='https://via.placeholder.com/300' className=''/>
-        </div>
-        
-                <LowerNavigation />
+            {/* --------Middle Content-------- */}
+            <div className='text-content-container'>
+                <p><strong>Welcome to the house that Warriors™ built.</strong> They are the heart and soul of this company, embodying our values, living our brand, and fighting the good fight every day for our members. They’re the reason we succeed. They’re the reason we’re here. Right here. On a brand-new campus where Warriors can thrive.
+                </p> <p>You know it’s right when everything just falls into place. Five floors, five foundational pillars, and five senses to take it all in. Warriors weighed in on furniture and fixtures in focus groups, and we’ve incorporated our past, present and future into the design — who thought five storeys would have so many stories to tell?</p>
+                <p> As you journey around the building, be sure to look for the nostalgic wall graphics in unexpected places. You may find characters from the Land of Oz, nods to Kara’s favorite movies, and even the “gorilla in the room.”
+                </p>
+            </div>
+            <div className='text-content-container'>
+                <div className="section-header">
+                    <h2>Defining Pillars</h2>
+                    <hr className="pillar-underline" />
+                </div>
+                <p><strong>What is a band pillar? </strong></p>
+                <p>Just as pillars hold up a roof, brand pillars support the brand — we have five of them. Everything we do, from our training and quality assurance to our performance evaluations and Pod structure, is based on these pillars. By staying true to them we provide the guidance and support our members need throughout every step of their journeys.</p>
+                <p>For every floor, there’s a pillar. And for every pillar, there are great branded features in our new  building, such as color, wall graphics and conference room naming.</p>
+            </div>
 
-        <Footer />
+            {/* --------Pillar section-------- */}
+            <HomePillars />
+
+            <div className='text-content-container floor-to-ceiling'>
+
+                <p><strong>Welcome to Ohio’s Emarald City (aka Dublin) </strong>All the Wizard of Oz references came from the branding initiative in 2013-2014, where members, clients, consultants and Warriors drew several parallels between our members’ healthcare journeys and the famed yellow-brick journey to the Emerald City. And the brains, heart and courage we provide our members along the way.</p>
+                <h3>We’re not just a research-based company; we’re a research-based brand.</h3>
+                <img src='https://via.placeholder.com/300' className='' />
+            </div>
+            {/* --------Lower Navigation-------- */}
+
+            <LowerNavigation />
+            {/* --------Footer Navigation-------- */}
+
+            <Footer />
         </>
     );
 }

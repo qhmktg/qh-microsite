@@ -13,20 +13,26 @@ import CardItem from '../Components/CardItem'
 export default function floor2() {
     return (
         <>
-        <HeroSection
-            body="Making a house feel like home involves making it a reflection of those who live there. So naturally, we involved Warriors in the decision making for everything from floor design and furnishings, to amenities and artwork. We don’t just want to make it a cool place to work — we want to make our new home a reflection of the Warriors within. "
-            head="Floor 2"
-            label='Adventure'
-        />
-        <Furniture
-            img='https://via.placeholder.com/300'
-            headline="THIS HIGH-TOP GOT 77 THUMBS UP FOR CONNECTIVITY AND FIVE STARS FOR PRIVACY." />
-        <Pillar />
-        <MemberQuote
-            quote={[<strong>&quot; To My Quantum Health Warrior:</strong>, "How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done. You are making a difference in the world. Don’t ever forget that.quot;"]} />
-       <div>
-            <FindMeSection />
-        {/*<FindMe
+            {/* --------Hero section-------- */}
+            <HeroSection
+                body={[<p className='heroCallOut'>&quot;EGD MOMENTS &quot;</p>, <br />, "Stare at the wall designs long enough and you’ll see words. That’s OK, you’re supposed to. These moments, brought to you by environmental graphic design, make warrioring beautiful."]}
+                head="Floor 2"
+                style="floor-2-bg"
+
+            />
+                        {/* --------Furniture call out section-------- */}
+
+            <Furniture
+                img='https://via.placeholder.com/300'
+                headline="THIS HIGH-TOP GOT 77 THUMBS UP FOR CONNECTIVITY AND FIVE STARS FOR PRIVACY." />
+            <Pillar 
+             pillar="Warrior" 
+             pillarStyle="pillarGreen"/>
+            <MemberQuote
+                quote={[<strong>&quot; To My Quantum Health Warrior:</strong>, "How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done. You are making a difference in the world. Don’t ever forget that.quot;"]} />
+            <div>
+                <FindMeSection />
+                {/*<FindMe
             header="Warm and Fuzzy, With a Secret Weapon"
             easterEggImage="https://via.placeholder.com/300"
             to='/WarmAndFuzzy' />
@@ -38,30 +44,38 @@ export default function floor2() {
             header="Put 'em Up, Put 'em Up"
             easterEggImage="https://via.placeholder.com/300"
             to='/PutEmUp' /> */}
-            <div className="cards">
-            <div className="cards__container">
-                <div className="cards__wrapper">
-                    <ul className="cards_items">
-                        <CardItem 
-                        src='https://via.placeholder.com/300'  
-                        text="Rubby Slippers"
-                        label='Adventure'
-                        path='/892067'
-                        CardStyle='green'/>
-                          <CardItem 
-                        src='https://via.placeholder.com/300' 
-                        text="Gorilla in the Room"
-                        label='Adventure'
-                        path='/Gorilla'
-                        CardStyle='green'/>
-                    </ul>
+                <div className="cards">
+                    <div className="cards__container">
+                        <div className="cards__wrapper">
+                            <ul className="cards_items">
+                                <CardItem
+                                    src='https://via.placeholder.com/300'
+                                    text="Warm and Fuzzy, With A Secret Weapon"
+                                    label='Adventure'
+                                    path='/WarmAndFuzzy'
+                                    CardStyle='green' />
+                                <CardItem
+                                    src='https://via.placeholder.com/300'
+                                    text="The Birds"
+                                    label='Adventure'
+                                    path='/TheBirds'
+                                    CardStyle='green' />
+                                <CardItem
+                                    src='https://via.placeholder.com/300'
+                                    text="Put ‘Em Up, Put ‘Em Up "
+                                    label='Adventure'
+                                    path='/PutEmUp'
+                                    CardStyle='green' />
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-        <ConferenceRoom 
-        rooms ={['RAMP UP CONFERENCE ROOM (Main)', 'THE SHIELD', 'SUPER HERO']}/>
-        <Footer />
-    </>
+            <ConferenceRoom
+                rooms={['RAMP UP CONFERENCE ROOM (Main)', 'THE SHIELD', 'SUPER HERO']}
+                style="floor-2-bg"
+            />
+            <Footer />
+        </>
     )
 }

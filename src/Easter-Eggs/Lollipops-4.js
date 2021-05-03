@@ -7,10 +7,11 @@ function Lollipops() {
             <EasterEggLanding 
             img='https://via.placeholder.com/300'
             Title="Lollipops"
-            info='test information'
+            info='Whether they represent our culture of food, or the Lollipop Guild welcoming you to Munchkin land, these sweet treats definitely represent. '
             floor="/floor-4"
             BackTo="Back to floor 4"
             imgalt=""
+            style="floor-4-bg"
 
             />
         </div>

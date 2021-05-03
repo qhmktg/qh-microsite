@@ -26,6 +26,7 @@ import Sparrows from './Easter-Eggs/sparrows-3'
 import Lego from './Easter-Eggs/Lego-4'
 import Brain from './Easter-Eggs/Brain-4'
 import Lollipops from './Easter-Eggs/Lollipops-4'
+import './Pages/Pages.css'
 
 
 
@@ -45,7 +46,7 @@ function useWindowSize() {
 }
 
 function App() {
-  const [width, height] = useWindowSize();
+  const [width] = useWindowSize();
   //Render desktop splash page on dimensions bigger than 768px
   if (width > 768) {
     return (<div className="App">

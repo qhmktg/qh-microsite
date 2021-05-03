@@ -4,15 +4,25 @@
 
 .pillar-underline{
     width: 50px;
+    border: transparent;
+    border-top: 1px solid #808080;
+
 }
 
 .section-header{
     padding-bottom: 2.5rem;
 }
 
+.section-header h2{
+    color: #808080;
+    font-weight: 200;
+}
+
 .pillar-content > h1{
     padding-bottom: .75rem;
     text-align:left;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .pillar-content{
@@ -23,3 +33,23 @@ img{
         width: 100%;
         max-width: 1500px;
 }
+
+.pillar-content .pillarGreen{
+    color: #71A300 !important;
+  }
+
+  .pillar-content .pillarYellow{
+    color: #FFCD00 !important;
+  }
+
+  .pillar-content  .pillarBlue{  
+  color: #008E92 !important;
+  }
+
+  .pillar-content .pillarOrange{ 
+    color: #DF6F34 !important;
+  }
+
+  .pillar-content .pillarPurple{  
+  color: #653C5F !important;
+  }

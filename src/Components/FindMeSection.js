@@ -5,9 +5,9 @@ import './FindMe.css';
 function FindMe() {
     return (
         <div className='find-me-container'>
-        <div className="find-me-header">
+        <div className="section-header">
             <h2>Find Me</h2>
-            <hr className="find-me-underline" />
+            <hr className="pillar-underline" />
         </div>
     </div>
     )

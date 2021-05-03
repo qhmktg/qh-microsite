@@ -7,10 +7,11 @@ function NoJackasses() {
             <EasterEggLanding 
             img='https://via.placeholder.com/300'
             Title="NO JACKASSES "
-            info='test information'
+            info='Enough said.'
             floor="/floor-3"
             BackTo="Back to floor 3"
             imgalt=""
+            style="floor-3-bg"
 
             />
         </div>

@@ -48,4 +48,11 @@
       "last 1 safari version"
     ]
   }
+  ,
+  "devServer": {
+    "historyApiFallback": true,
+    "contentBase": "./",
+    "hot": true
+ }
+  
 }

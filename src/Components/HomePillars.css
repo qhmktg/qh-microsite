@@ -1,0 +1,48 @@
+.container{
+padding: 0 2rem 4rem 2rem;
+
+}
+
+.home-pillar-container{  
+display: flex;
+justify-content: space-between;
+flex-flow: wrap;
+}
+
+.pillar-cards{
+display: inline-block;
+max-width: 150px;
+/*padding: .5rem .5rem 1.5rem .5rem;*/
+padding-bottom: 2rem;
+}
+
+.pillar-img{
+max-width: 150px;
+width: auto; 
+padding-bottom: .25rem;
+}
+.orphan-card{
+justify-content:center;
+text-align: center;
+max-width: 100%;
+width: 100% !important;
+}
+
+.title{
+justify-content:center;
+text-align: center;
+max-width: 100%;
+text-transform: uppercase;
+padding-bottom: 2rem;
+}
+
+.title h2{
+text-align: center;
+font-weight: 700;
+}
+
+.home-pillar-container h3{
+text-align: center;
+font-weight: 200;
+}
+

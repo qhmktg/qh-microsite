@@ -1,0 +1,93 @@
+:root {
+  --green: #71A300;
+  --yellow: #FFCD00;
+  --teal: #008E92;
+  --purple: #653C5F;
+  --orange: #DF6F34;
+}
+/*----------------------------------------------*/
+/*---------------home page styling---------------*/
+/*----------------------------------------------*/
+.Home-bg{
+background-color: var(--green) !important;
+align-items: center; 
+ justify-content: center;
+}
+
+.Home-bg .hero-copy{ 
+margin-top: -200px;
+}
+.floor-1-bg{
+background-color: var(--teal) !important;
+
+}
+.floor-2-bg{
+background-color: var(--green) !important;
+
+}
+.floor-3-bg{
+background-color: var(--purple) !important;
+
+}
+.floor-4-bg{
+background-color: var(--orange) !important;
+
+}
+
+
+h2{
+font-weight: 200;
+}
+
+.section-header{
+  color: #828282;
+}
+
+.underline{
+
+}
+
+/*----------------------------------------------*/
+/*---------------FLoor LL styling---------------*/
+/*----------------------------------------------*/
+
+.floor-LL-bg{
+background-color: var(--yellow) !important;
+color: black !important;
+}
+
+.floor-LL-bg h1{
+color: black !important;
+}
+
+.floor-LL-bg .pillar-underline{
+border: 1px black solid !important;
+}
+
+@media screen and (min-width: 768px){
+    .home-pillar-container{
+    justify-content:center;
+    text-align: center;
+    }
+
+    p{
+    font-size: 20px;
+    }
+
+    .pillar-cards {
+    width: 200px !important;
+    max-width: 200px !important;
+    }
+
+    .pillar-img{
+    width: 200px !important;
+    max-width: 200px !important;
+
+    }
+ 
+    
+    h3{
+    font-size:1.5rem; 
+    }
+
+}

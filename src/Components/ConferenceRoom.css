@@ -1,7 +1,6 @@
 .conference-room-container{
     padding:4rem 2rem;
-    background-color: #b5b5b5;
-}
+    color: white;}
 .conference-room-underline{
     width: 50px;
 }
@@ -18,9 +17,9 @@
     line-height: 2rem;
 }
 
-hr { 
+.conference-room-container hr { 
     display: block; 
     height: 1px;
     border: 0; 
-    border-top: 1px solid black;
+    border-top: 1px solid white;
 }
