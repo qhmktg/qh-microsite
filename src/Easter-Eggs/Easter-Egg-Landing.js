@@ -14,8 +14,8 @@ function EasterEggLanding(props) {
             <div className="easter-egg-container">
 
 
-                <div className='easter-egg-image'>
-                    <img src={props.img} alt={props.imgalt}/>
+                <div className="easter-egg-image-container">
+                    <img className='easter-egg-image' src={props.img} alt={props.imgalt}/>
                 </div>
                 <div className='easter-egg-content'>
                     <h1>{props.Title}</h1>

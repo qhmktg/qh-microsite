@@ -11,16 +11,21 @@ import FindMeSection from '../Components/FindMeSection'
 import CardItem from '../Components/CardItem'
 import floor2Chair from '../images/chair_fake_shadow.png'
 import pillarWarrior from '../images/Warrior.svg'
+import crows from '../images/210215_building_graphics_3135_f.png'
+import bunny from '../images/210215_building_graphics_3808_bunny_rabbit-card.png'
+import lion from '../images/210215_building_graphics_3207_lion_w_feet_OL-card.png'
 export default function floor2() {
     return (
         <>
             {/* --------Hero section-------- */}
+            <div className="splashSection">
+
             <HeroSection
                 body={[<p className='heroCallOut'>&quot;EGD MOMENTS &quot;</p>, <br />, "Stare at the wall designs long enough and you’ll see words. That’s OK, you’re supposed to. These moments, brought to you by environmental graphic design, make warrioring beautiful."]}
                 head="Floor 2"
                 style="floor-2-bg"
-
             />
+            </div>
                         {/* --------Furniture call out section-------- */}
 
             <Furniture
@@ -51,19 +56,20 @@ export default function floor2() {
                         <div className="cards__wrapper">
                             <ul className="cards_items">
                                 <CardItem
-                                    src='https://via.placeholder.com/300'
+                                    src={bunny}
                                     text="Warm and Fuzzy, With A Secret Weapon"
                                     label='Adventure'
                                     path='/WarmAndFuzzy'
                                     CardStyle='green' />
                                 <CardItem
-                                    src='https://via.placeholder.com/300'
+                                    src={crows}
                                     text="The Birds"
                                     label='Adventure'
                                     path='/TheBirds'
-                                    CardStyle='green' />
+                                    CardStyle='green' 
+                                    alt='crows'/>
                                 <CardItem
-                                    src='https://via.placeholder.com/300'
+                                    src={lion}
                                     text="Put ‘Em Up, Put ‘Em Up "
                                     label='Adventure'
                                     path='/PutEmUp'

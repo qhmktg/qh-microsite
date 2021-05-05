@@ -32,38 +32,50 @@ z-index: 0;
 z-index: 1;
 
 }
-.hero-container .floor-1-bg {
-background-color: var(--teal) ;
-
+ .splashSection .floor-1-bg {
 background-image: url("../images/QH_headquarters_dublin_01_1st.png") !important;
 background-blend-mode: multiply;
 background-position: -5rem -10rem;
 }
 
 .floor-1-bg{
-
+background-color: var(--teal) ;
 }
+
 
 
 .floor-2-bg{
 background-color: var(--green) !important;
+}
+
+.splashSection .floor-2-bg{
 background-image: url("../images/QH_headquarters_dublin_01_1st.png");
 background-blend-mode: multiply;
 background-position: -20rem -15rem;
 }
+
 .floor-3-bg{
+background-color: var(--purple) !important;
+
+}
+
+.splashSection .floor-3-bg{
 background-color: var(--purple) !important;
 background-image: url("../images/QH_headquarters_dublin_01_1st.png");
 background-blend-mode: multiply;
 background-position: -45rem -45rem;
 }
+
 .floor-4-bg{
 background-color: var(--orange) !important;
+
+}
+
+.splashSection .floor-4-bg{
 background-image: url("../images/QH_headquarters_dublin_01_1st.png");
 background-blend-mode: multiply;
 background-position: -75rem -80rem;
 }
-
 
 h2{
 font-weight: 200;
@@ -118,4 +130,41 @@ border: 1px black solid !important;
     font-size:1.5rem; 
     }
 
+}
+
+.text-content-container > h2{
+font-weight: 400;
+}
+
+.text-content-container > p{
+padding-bottom: 3rem !important;}
+
+.easter-egg-card .floor-4-bg{
+top:25% !important;
+}
+
+.caution{
+z-index:99;
+position: absolute;
+filter: drop-shadow(0 0 10px rgb(97, 97, 97));
+transform: rotate(20deg);
+width: 200%;
+top: 25%;
+   left: -50%;
+}
+.caution-container{
+position: absolute;
+  height: 100vh; 
+  width:100vw;
+  overflow: hidden;
+}
+
+.hard-hat{
+transform: translate(-50%);
+left: 50%;
+
+position: absolute;
+bottom: 0;
+height: auto; 
+max-width: 350px;
 }

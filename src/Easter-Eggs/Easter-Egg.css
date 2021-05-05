@@ -1,20 +1,25 @@
 .easter-egg-container{
     padding: 2rem 3.5rem;
     color: white;
-    /* background-color: #b5b5b5; */
 }
 
 .easter-egg-image{
-    text-align: center;
-    /* border-left: solid 70px transparent; 
-  border-right: solid 70px transparent; 
-  border-bottom: solid 70px #fff; */
   filter: drop-shadow(0 0 10px rgb(97, 97, 97));
+  max-height: 350px;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.easter-egg-image-container{
+justify-content: center;
+text-align: center;
+
 }
 
 .easter-egg-card{
-    background-color: #8f8f8f;
-    Height: 100vh;
+    Height: 125vh;
     position: absolute;
     top: 50%;
     width: 100%;
@@ -29,7 +34,7 @@
     text-align: left;
 }
 .easter-egg-content h1{
-    padding: 2rem 0;
+    padding: 0 0 2rem 0;
     text-align: left;
 }
 .easter-egg-content p{
@@ -42,7 +47,6 @@
 
 @media screen and (min-height: 800px) {
     .easter-egg-card{
-        background-color: #8f8f8f;
         top: 40%;
     }
   }
