@@ -45,8 +45,15 @@ text-align: center;
     overflow: hidden;
 }
 
+
 @media screen and (min-height: 800px) {
-    .easter-egg-card{
-        top: 40%;
-    }
-  }
+.easter-egg-card {
+    Height: 115vh ;
+    position: absolute;
+    top: 35% ;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}}

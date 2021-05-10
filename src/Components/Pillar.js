@@ -16,7 +16,7 @@ function Pillar(props) {
                 <h1 className={`${checkPillarStyle}`}>{props.pillar}</h1>
                 <p>We stick with our members throughout their entire healthcare journey each and every step of the way.</p>
             </div>
-            <img src={props.pillarImage} />
+            <img className="pillar" src={props.pillarImage} />
         </div>
     )
 }

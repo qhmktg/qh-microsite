@@ -13,6 +13,7 @@ import '../Components/Cards.css'
 import rubbySlippers from '../images/ruby_slippers_iso_transparent-shadow.png'
 import floor1chair from '../images/210304_furniture_fixtures_4250_orange_chair_reading.png'
 import stickWithEm from '../images/Stick with Em.svg'
+import GorillaCardImage from '../images/210215_building_graphics_3269_gorilla-card.png'
 
 export default function floor1() {
     return (
@@ -52,7 +53,7 @@ export default function floor1() {
                                     path='/892067'
                                     CardStyle='blue' />
                                 <CardItem
-                                    src='https://via.placeholder.com/300'
+                                    src={GorillaCardImage}
                                     text="Gorilla in the Room"
                                     label='Adventure'
                                     path='/Gorilla'
