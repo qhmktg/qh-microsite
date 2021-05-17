@@ -8,7 +8,7 @@ function RubbySlippers() {
             <EasterEggLanding 
             img={rubbySlippers}
             Title="Ruby Slippers"
-            info='Donning her ruby red slippers, Dorothy and her new friends stuck together through the many obstacles on their journey to the Emerald City. Those special shoes also remind us that “there’s no place like home.”'
+            info='Donning her ruby red slippers, Dorothy and her new friends stuck together through the many obstacles on their journey to the Emerald City. Those special shoes also remind us that “there’s no place like home.” '
             floor="/floor-1"
             BackTo="Back to floor 1"
             imgalt=""

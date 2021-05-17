@@ -15,7 +15,7 @@ const checkHeroStyling = STYLES.includes(props.style) ? props.style : STYLES[0];
 
     return (
         <div className={`hero-container floor-hero ${checkHeroStyling}`}>
-            <h1>{props.head}</h1>
+            <h1 className={props.HeaderStyle}>{props.head}</h1>
             <hr class="pillar-underline" />
             <p>{props.body}</p>
         </div>

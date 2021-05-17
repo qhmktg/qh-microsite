@@ -21,8 +21,11 @@ export default function floor2() {
             <div className="splashSection">
 
             <HeroSection
-                body={[<p className='heroCallOut'>&quot;EGD MOMENTS &quot;</p>, <br />, "Stare at the wall designs long enough and you’ll see words. That’s OK, you’re supposed to. These moments, brought to you by environmental graphic design, make warrioring beautiful."]}
-                head="Floor 2"
+                body="The second floor aligns with our “Warrior” pillar. During the branding initiative of 2013-2014, interviews with those familiar with Quantum Health revealed that our care coordinators and nurses were thought of as more than mere advocates for our members — in many cases, they fought on behalf of members with the heart of warriors. Referring to our associates as Warriors empowers and reminds them to do whatever it takes to help during every member call."
+                
+                // {[<p className='heroCallOut'>&quot;EGD MOMENTS &quot;</p>, <br />, "Stare at the wall designs long enough and you’ll see words. That’s OK, you’re supposed to. These moments, brought to you by environmental graphic design, make warrioring beautiful."]}
+
+                head="Second Floor"
                 style="floor-2-bg"
             />
             </div>
@@ -35,9 +38,12 @@ export default function floor2() {
              pillar="Warrior" 
              pillarStyle="pillarGreen"
              pillarImage={pillarWarrior}
-             pillarCopy="We are passionate about taking on the parties that members perceive to be either hostile or unfriendly to their interests."/>
+             pillarCopy="We are passionate about taking on the parties that members perceive to be either hostile or unfriendly to their interests."
+             />
             <MemberQuote
-                quote={[ <span>&quot;</span>, "One of our members was in an accident that left him a paraplegic. It killed his best friend, so the fact he even survived it is a miracle. But he faces a new normal: life in a wheelchair with painful survivor’s guilt. I connected with him three months after the crash. He shared that neighbors were taking turns carrying him in and out of the house because he and his wife didn’t have a wheelchair ramp. He was also trying to find someone to modify his care with hand controls so that he could drive. Helping him in every way possible became my mission. I set up therapy sessions, chased authorizations, outreached for medical supplies, assisted with claims, found a company to build him a wheelchair ramp, identified an organization to get him a mobility scooter and, most importantly, provided emotional support and resources to help him through feelings of depression and anger." ,<strong> He is getting stronger every day and is in much better spirits. And I am proud to be by his side as he does.&quot;</strong> ]} />
+                quote={[ <span>&quot;</span>, "One of our members was in an accident that left him a paraplegic. It killed his best friend, so the fact he even survived it is a miracle. But he faces a new normal: life in a wheelchair with painful survivor’s guilt. I connected with him three months after the crash. He shared that neighbors were taking turns carrying him in and out of the house because he and his wife didn’t have a wheelchair ramp. He was also trying to find someone to modify his car with hand controls so that he could drive. Helping him in every way possible became my mission. I set up therapy sessions, chased authorizations, outreached for medical supplies, assisted with claims, found a company to build him a wheelchair ramp, identified an organization to get him a mobility scooter and, most importantly, provided emotional support and resources to help him through feelings of depression and anger. " ,<strong> He is getting stronger every day and is in much better spirits. And I am proud to be by his side as he does.&quot;</strong> ]} 
+                header="Member Story"
+                />
             <div>
                 <FindMeSection />
                 <div className="cards">
@@ -69,7 +75,7 @@ export default function floor2() {
                 </div>
             </div>
             <ConferenceRoom
-                rooms={['RAMP UP (Main)', 'THE SHIELD', 'SUPER HERO']}
+                rooms={['RAMP UP CONFERENCE ROOM (Main)', 'THE SHIELD', 'SUPER HERO']}
                 style="floor-2-bg"
             />
             <Footer />

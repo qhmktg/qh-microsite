@@ -17,7 +17,7 @@ function HomePillars() {
                 <div className="home-pillar-container">
                     <div className="pillar-cards">
                         <img className="pillar-img" src={stickWithEm} />
-                        <h3>Stick With 'Em</h3>
+                        <h3>Stick with Them</h3>
                     </div>
                     <div className="pillar-cards">
                         <img className="pillar-img" src={Warrior} />

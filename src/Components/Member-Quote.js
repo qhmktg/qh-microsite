@@ -5,7 +5,7 @@ function MemberQuote(props) {
         <div>
             <div className='member-quote-container'>
                 <div className="section-header">
-                    <h2>Member Quote</h2>
+                    <h2>{props.header}</h2>
                     <hr className="pillar-underline" />
                 </div>
                 <div className='member-quote-content'>

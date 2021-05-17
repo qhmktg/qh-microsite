@@ -20,9 +20,9 @@ export default function floorll() {
          </div>
 
         <HeroSection
-            head="Floor LL"
+            head="Lower Level"
             style="floor-LL-bg"
-
+            HeaderStyle="lowerLevelHeader"
         />
         <Footer />
     </>

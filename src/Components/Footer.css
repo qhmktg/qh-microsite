@@ -56,6 +56,14 @@
     box-sizing: border-box;
     text-align: center ;
     justify-content: center;
+    list-style-type:none;
+}
+
+.links{
+    text-align: center ;
+    justify-content: center; 
+    margin: auto;
+
 }
 
 .footer-link-items h2{

@@ -16,7 +16,7 @@ function ConferenceRoom(props) {
     return (
         <div className={`conference-room-container ${checkStyling}`}>
             <div className="conference-room-header">
-            <h2>Conference Room's</h2>
+            <h2>Conference Rooms</h2>
             <hr className="conference-room-underline" />
         </div>
             <ul>

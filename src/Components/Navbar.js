@@ -52,7 +52,7 @@ function Navbar() {
                                     <Link to='/floor-4' className='nav-links' onClick={closeMobileMenu}>Floor 4</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link to='/floor-ll' className='nav-links' onClick={closeMobileMenu}>Floor LL</Link>
+                                    <Link to='/lowerLevel' className='nav-links' onClick={closeMobileMenu}>Lower Level</Link>
                                 </li>
                                 <li className='nav-item'>
                                     <a target='_blank' href='https://quantum-health.com/' className='nav-links' onClick={closeMobileMenu}>Quantum-Health</a>

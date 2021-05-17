@@ -7,7 +7,7 @@ function Gorilla() {
             <EasterEggLanding 
             img={GorillaImage}
             Title="Gorilla in the room"
-            info='Back in the year 2000, “The Invisible Gorilla” was created as a psychological experiment to test selective attention. It has since become one of the most famous training experiments ever, demonstrating that when we get stuck in the details, we should never lose sight of the bigger picture.'
+            info='Back in the year 2000, “The Invisible Gorilla” was created as a psychological experiment to test selective attention. It has become one of the most famous training experiments ever, demonstrating that when we get stuck in the details, we should never lose sight of the bigger picture.'
             floor="/floor-1"
             BackTo="Back to floor 1"
             imgalt=""

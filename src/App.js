@@ -7,7 +7,7 @@ import floor1 from './Pages/Floor-1';
 import floor2 from './Pages/Floor-2';
 import floor3 from './Pages/Floor-3';
 import floor4 from './Pages/Floor-4';
-import floorll from './Pages/Floor-LL';
+import lowerLevel from './Pages/Floor-LL';
 import { EasterEggProvider } from './Components/context'
 import DesktopSplash from './Components/DesktopSplash'
 import ScrollToTop from './ScrollToTop'
@@ -69,7 +69,7 @@ function App() {
                 <Route path='/floor-2' exact component={floor2} />
                 <Route path='/floor-3' exact component={floor3} />
                 <Route path='/floor-4' exact component={floor4} />
-                <Route path='/floor-ll' exact component={floorll} />
+                <Route path='/lowerLevel' exact component={lowerLevel} />
                 {/* ---------Easter Egg link paths--------- */}
                 {/* <Route path='/Easter-Egg-Landing' exact component={EasterEggLanding} /> */}
                 <Route path='/Gorilla' exact component={Gorilla} />

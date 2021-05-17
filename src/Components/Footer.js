@@ -9,12 +9,12 @@ function Footer() {
                 <div className="footer-links">
                     <div className="footer-link-wrapper">
                         <div className="footer-link-items">
-                            <Link to='/'>Home</Link>
-                            <Link to='/Floor-1'>Floor 1</Link>
-                            <Link to='/Floor-2'>Floor 2</Link>
-                            <Link to='/Floor-3'>Floor 3</Link>
-                            <Link to='/Floor-4'>Floor 4</Link>
-                            <Link to='/Floor-ll'>Floor LL</Link>
+                            <Link className="links" to='/'>Home</Link>
+                            <Link className="links" to='/Floor-1'>Floor 1</Link>
+                            <Link className="links" to='/Floor-2'>Floor 2</Link>
+                            <Link className="links" to='/Floor-3'>Floor 3</Link>
+                            <Link className="links" to='/Floor-4'>Floor 4</Link>
+                            <Link className="links" to='/lowerLevel'>Lower Level</Link>
 
                         </div>
                     </div>

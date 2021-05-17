@@ -20,8 +20,8 @@ export default function floor1() {
         <>
             <div className="splashSection">
                 <HeroSection
-                    body="Making a house feel like home involves making it a reflection of those who live there. So naturally, we involved Warriors in the decision-making for everything from floor design and furnishings, to amenities and artwork. We don’t just want to make it a cool place to work — we want to make our new home a reflection of the Warriors within."
-                    head="Floor 1"
+                    body="The first floor aligns with our “Stick With Them” pillar. As you walk into the building, you’re immediately greeted by front-desk and security Warriors™ who make us all feel welcome and secure. On the lobby floor, the curvature of the custom tiling is reminiscent of the curvature of the winding road into the “Q” of our logo, suggesting that your journey with Quantum Health — whatever it may be — is beginning. "
+                    head="First Floor"
                     label='Adventure'
                     style="floor-1-bg"
                 />
@@ -29,17 +29,18 @@ export default function floor1() {
             <Furniture
                 img={floor1chair}
                 headline="THIS HIGH-TOP GOT 77 THUMBS UP FOR CONNECTIVITY AND FIVE STARS FOR PRIVACY." />
-            <div className='text-content-container'>
+            {/* <div className='text-content-container'>
                 <p>Don’t be baffled by the baffles: they do have a function — a very important one. They help absorb light and sound for better ambiance and noise reduction so you can stick to whatever you’re doing, without interruption. Looking cool is just gravy </p>
-            </div>
+            </div> */}
             <Pillar
-                pillar="Stick with Me"
+                pillar="Stick with Them"
                 pillarStyle="pillarBlue"
                 pillarImage={stickWithEm}
-                pillarCopy="We stick with our members throughout their entire healthcare journey, each and every step of the way."
+                pillarCopy="We stick with our members throughout their entire healthcare journey each and every step of the way."
             />
             <MemberQuote
-                quote={[<strong>&quot;To My Quantum Health Warrior:</strong>, " How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done.", <strong>You are making a difference in the world. Don’t ever forget that.&quot;</strong>]} />
+                quote={[<strong>&quot;To My Quantum Health Warrior:</strong>, " How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done.", <strong>You are making a difference in the world. Don’t ever forget that.&quot;</strong>]} 
+                header="Member Quote"/>
             <div>
                 <FindMeSection />
 
@@ -66,7 +67,7 @@ export default function floor1() {
             </div>
 
             <ConferenceRoom
-                rooms={['Journey (Main)', 'Yellow Brick Room', 'Extra Mile', '1999']}
+                rooms={['Journey Conference Room (Main)', 'Yellow Brick Room', 'Extra Mile Room', '1999 Room']}
                 style="floor-1-bg"
             />
             <Footer />

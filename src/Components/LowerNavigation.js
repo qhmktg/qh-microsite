@@ -47,8 +47,8 @@ function LowerNavigation() {
                         type='button'
                         buttonSize='btn-small'
                         buttonStyle="btn--outline"
-                        location='/floor-ll'>
-                        Floor LL
+                        location='/lowerLevel'>
+                        Lower Level
                             </Button>
                 </div>
             </div>

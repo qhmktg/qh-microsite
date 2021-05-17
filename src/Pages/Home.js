@@ -32,8 +32,8 @@ function Home() {
             </div>
             {/* --------Middle Content-------- */}
             <div className='text-content-container'>
-                <p><strong>Welcome to the house that Warriors™ built.</strong> They are the heart and soul of this company, embodying our values, living our brand, and fighting the good fight every day for our members. They’re the reason we succeed. They’re the reason we’re here. Right here. On a brand-new campus where Warriors can thrive. 
-                </p> 
+                <p><strong>Welcome to the house that Warriors™ built.</strong> They are the heart and soul of this company, embodying our values, living our brand, and fighting the good fight every day for our members. They’re the reason we succeed. They’re the reason we’re here. Right here. On a brand-new campus where Warriors can thrive.
+                </p>
 
                 <p>You know it’s right when everything just falls into place. Five floors, five foundational pillars, and five senses to take it all in. Warriors weighed in on furniture and fixtures in focus groups, and we’ve incorporated our past, present and future into the design — who thought five storeys would have so many stories to tell?</p>
 
@@ -51,8 +51,8 @@ function Home() {
                 <p>For every floor, there’s a pillar. And for every pillar, there are great branded features in our new building, such as color, wall graphics and conference room naming.</p>
             </div>
 
-                        {/* --------Added section-------- */}
-{/* 
+            {/* --------Added section-------- */}
+            {/* 
             <div className='text-content-container'>
                 <div className="section-header">
                     <h2>Defining Pillars</h2>
@@ -81,9 +81,15 @@ naming, to name a few.</p>
             <HomePillars />
 
             <div className='text-content-container floor-to-ceiling'>
-
-                <p><strong>Welcome to Ohio’s Emarald City (aka Dublin) </strong>All the Wizard of Oz references came from the branding initiative in 2013-2014, where members, clients, consultants and Warriors drew several parallels between our members’ healthcare journeys and the famed yellow-brick journey to the Emerald City. And the brains, heart and courage we provide our members along the way.</p>
-                <h3>We’re not just a research-based company; we’re a research-based brand.</h3>
+                <p>
+                    <strong>
+                        “Toto, I don’t think we’re in Worthington anymore.”
+                    </strong>
+                </p>
+                <p>
+                Quantum Health isn’t just a research-based company; we’re a research-based brand. All the Wizard of Oz references came from the branding initiative done in 2013-2014, where members, clients, consultants and Warriors drew several parallels between our members’ healthcare journeys and the famed yellow-brick journey to the Emerald City. And the brains, heart and courage we provide our members along the way. <strong>Welcome to Ohio’s Emarald City (aka Dublin).</strong>
+                    </p>
+                
                 {/* <img src='https://via.placeholder.com/300' className='' /> */}
             </div>
             {/* --------Lower Navigation-------- */}
