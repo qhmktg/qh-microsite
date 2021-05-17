@@ -20,7 +20,7 @@ export default function floor4() {
         <>
             <div className="splashSection">
                 <HeroSection
-                    body={[<p className='heroCallOut'>SANCTUARY ON EVERY FLOOR</p>, <br />, "Intense conversations with members happen all the time. When you need a moment to reset, but don’t want to go all the way out to your car just to be alone, Warriors can find privacy on every floor, called Sanctuary Rooms — where you can shut the door and sink into the contoured wall pattern that’s styled to take you to another place — your happy place.  "]}
+                    body={[<p className='heroCallOut'>SANCTUARY ON EVERY FLOOR</p>, <br />, "Intense conversations with members happen all the time. When you need a moment to reset, and some space to be alone, Warriors can find privacy on every floor. Sanctuary Rooms are safe zones where you can shut the door and sink into another place — your happy place."]}
                     head="Floor 4"
                     label='Adventure'
                     style="floor-4-bg"
@@ -35,22 +35,11 @@ export default function floor4() {
             <Pillar
                 pillar="Expertise"
                 pillarStyle="pillarOrange"
-                pillarImage={pillar} />
+                pillarImage={pillar} 
+                pillarCopy="We have extensive knowledge and expertise in virtually every aspect of the healthcare delivery system."/>
             <MemberQuote
-                quote={[<strong>&quot; To My Quantum Health Warrior:</strong>, "How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done. You are making a difference in the world. Don’t ever forget that.quot;"]} />
-            {/* <FindMeSection />
-            <FindMe
-                header="Lollipops"
-                easterEggImage="https://via.placeholder.com/300"
-                to='/Lollipops' />
-            <FindMe
-                header="Lego My Pillars"
-                easterEggImage="https://via.placeholder.com/300"
-                to='/Lego' />
-            <FindMe
-                header="If I only had a brain"
-                easterEggImage="https://via.placeholder.com/300"
-                to='/Brain' /> */}
+                quote={[<span>&quot;</span>, "After receiving various notices from my insurer and hospital, I absolutely dreaded delving into the healthcare abyss to sort through the issues. I had gotten a letter from my company about Quantum, so I decided to call and see if they could help. I could not have been more pleased and surprised with the pleasant, professional, knowledgeable support I received from my Quantum Care Coordinator. He had all of the records at his fingertips. He sorted through the issues, to the various providers to coordinate a resolution.", <strong> I was amazed! Thank you for an extraordinary experience.&quot;</strong>]} />
+
             <div>
                 <FindMeSection />
                 <div className="cards">
@@ -65,13 +54,13 @@ export default function floor4() {
                                     CardStyle='orange' />
                                 <CardItem
                                     src={lego}
-                                    text="Lego My Pillars"
+                                    text="Legos"
                                     label='Adventure'
                                     path='/Lego'
                                     CardStyle='orange' />
                                 <CardItem
                                     src={scarecrow}
-                                    text="If I Only Had a Brain"
+                                    text="Scarecrow"
                                     label='Adventure'
                                     path='/Brain'
                                     CardStyle='orange' />

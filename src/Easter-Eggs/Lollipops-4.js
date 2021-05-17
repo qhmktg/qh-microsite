@@ -8,7 +8,7 @@ function Lollipops() {
             <EasterEggLanding 
             img={lollipop}
             Title="Lollipops"
-            info='Whether they represent our culture of food, or the Lollipop Guild welcoming you to Munchkin land, these sweet treats definitely represent. '
+            info='Whether they represent our culture of food, or the Lollipop Guild welcoming you to Munchkin land, these sweet treats definitely represent.'
             floor="/floor-4"
             BackTo="Back to floor 4"
             imgalt="Large lolipops"

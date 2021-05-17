@@ -244,15 +244,3 @@ height: 200vh !important;
   width: 50%;}
 
 }
-
-@media screen and (max-height: 800px) {
-.easter-egg-card {
-    Height: 115vh !important;
-    position: absolute;
-    top: 30% !important;
-    width: 100%;
-    left: 0;
-    z-index: -1;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-}}

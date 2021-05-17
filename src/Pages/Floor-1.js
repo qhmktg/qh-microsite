@@ -20,7 +20,7 @@ export default function floor1() {
         <>
             <div className="splashSection">
                 <HeroSection
-                    body="Making a house feel like home involves making it a reflection of those who live there. So naturally, we involved Warriors in the decision making for everything from floor design and furnishings, to amenities and artwork. We don’t just want to make it a cool place to work — we want to make our new home a reflection of the Warriors within. "
+                    body="Making a house feel like home involves making it a reflection of those who live there. So naturally, we involved Warriors in the decision-making for everything from floor design and furnishings, to amenities and artwork. We don’t just want to make it a cool place to work — we want to make our new home a reflection of the Warriors within."
                     head="Floor 1"
                     label='Adventure'
                     style="floor-1-bg"
@@ -36,9 +36,10 @@ export default function floor1() {
                 pillar="Stick with Me"
                 pillarStyle="pillarBlue"
                 pillarImage={stickWithEm}
+                pillarCopy="We stick with our members throughout their entire healthcare journey, each and every step of the way."
             />
             <MemberQuote
-                quote={[<strong>&quot;To My Quantum Health Warrior:</strong>, " How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done. You are making a difference in the world. Don’t ever forget that.", <span>&quot;</span>]} />
+                quote={[<strong>&quot;To My Quantum Health Warrior:</strong>, " How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done.", <strong>You are making a difference in the world. Don’t ever forget that.&quot;</strong>]} />
             <div>
                 <FindMeSection />
 
@@ -48,7 +49,7 @@ export default function floor1() {
                             <ul className="cards_items">
                                 <CardItem
                                     src={rubbySlippers}
-                                    text="Rubby Slippers"
+                                    text="Ruby Slippers"
                                     label='Adventure'
                                     path='/892067'
                                     CardStyle='blue' />

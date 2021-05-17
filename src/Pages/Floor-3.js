@@ -19,7 +19,10 @@ export default function floor3() {
         <>
             <div className="splashSection">
                 <HeroSection
-                    body={[<p className='heroCallOut'>FOR SOME, PRIVACY IS SANCTUARY.</p>, <br />, "Phone rooms, nap nooks and privacy chairs— all designed for privacy and taking time out of the fray."]}
+                    // body={[<p className='heroCallOut'>FOR SOME, PRIVACY IS SANCTUARY.</p>, <br />, "Phone rooms, nap nooks and privacy chairs— all designed for privacy and taking time out of the fray."]}
+                    body={[<strong>For some Warriors, privacy is THEIR sanctuary.</strong>,
+                        " Phone rooms, nap nooks and privacy chairs are all designed for time out from the front lines.", <strong> For others, socializing
+                        provides an outlet.</strong>, " Every floor in our new home has huddle rooms designed for collaboration and small meetings, seating areas for light conversations, and harvest tables for Pod meetings and the always-popular Pod-lucks."]}
                     head="Floor 3"
                     label='Adventure'
                     style="floor-3-bg"
@@ -28,31 +31,21 @@ export default function floor3() {
             {/* <Furniture
                 img='https://via.placeholder.com/300'
                 headline="THIS HIGH-TOP GOT 77 THUMBS UP FOR CONNECTIVITY AND FIVE STARS FOR PRIVACY." /> */}
-            <div className='text-content-container'>
+            {/* <div className='text-content-container'>
                 <h2>FOR SOME WARRIORS, PRIVACY IS THEIR SANCTUARY.</h2>
                 <p>Phone rooms, nap nooks and privacy chairs — all designed for time out from the front lines.</p>
                 <h2>FOR OTHERS, SOCIALIZING PROVIDES AN OUTLET </h2>
                 <p>Every floor in our new home has huddle rooms for small meetings, seating areas for light conversations and harvest tables for Pod meetings and — wait for it — “Pod-lucks”</p>
-            </div>
+            </div> */}
             <Pillar
                 pillar="Friendship"
                 pillarStyle="pillarPurple"
-                pillarImage={pillar} />
+                pillarImage={pillar}
+                pillarCopy="We work closely with our members, often in times of need, and develop deep relationships. We become their friends and confidantes." />
             <MemberQuote
-                quote={[<strong>&quot; To My Quantum Health Warrior:</strong>, "How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done. You are making a difference in the world. Don’t ever forget that.quot;"]} />
-            {/* <FindMeSection />
-        <FindMe
-            header="“You couldn't hear a dump truck diving through a nitroglycerin plant.”"
-            easterEggImage="https://via.placeholder.com/300"
-            to='/DumpTruck' />
-               <FindMe
-            header="I'd be friends with all the sparrows'"
-            easterEggImage="https://via.placeholder.com/300"
-            to='/Sparrows' />
-               <FindMe
-            header="No Jackasses"
-            easterEggImage="https://via.placeholder.com/300"
-            to='/NoJackasses' /> */}
+                quote={[<p>EVER WONDER WHERE “JAM JAR” CAME FROM?</p>, <span>&quot;</span>,
+                    "In one of our conversations, you mentioned that you had talked to Barb on the day she was making strawberry jam. She told you that she was having a good day. The reason she had a good day was because you called her and talked to her and really cared. Please don’t ever change.",
+                <strong>Your compassion and genuine interest in people you contact make all the difference in the world.</strong>, "I know Barb would have wanted me to fulfill her promise. Enjoy the strawberry jam with all the love Barb put inside. Thank you.", <span>&quot;</span>]} />
             <div>
                 <FindMeSection />
                 <div className="cards">
@@ -61,14 +54,14 @@ export default function floor3() {
                             <ul className="cards_items">
                                 <CardItem
                                     src={treePillar}
-                                    text="How Lovely are thy Branched"
+                                    text="Christmas Vacation Scene"
                                     label='Adventure'
                                     path='/DumpTruck'
                                     CardStyle='purple'
                                     alt='christmas tree' />
                                 <CardItem
                                     src={tinman}
-                                    text="I’d Be Friends with All the Sparrows"
+                                    text="The Tin Man"
                                     label='Adventure'
                                     path='/Sparrows'
                                     CardStyle='purple'

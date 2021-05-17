@@ -32,9 +32,12 @@ function Home() {
             </div>
             {/* --------Middle Content-------- */}
             <div className='text-content-container'>
-                <p><strong>Welcome to the house that Warriors™ built.</strong> They are the heart and soul of this company, embodying our values, living our brand, and fighting the good fight every day for our members. They’re the reason we succeed. They’re the reason we’re here. Right here. On a brand-new campus where Warriors can thrive.
-                </p> <p>You know it’s right when everything just falls into place. Five floors, five foundational pillars, and five senses to take it all in. Warriors weighed in on furniture and fixtures in focus groups, and we’ve incorporated our past, present and future into the design — who thought five storeys would have so many stories to tell?</p>
-                <p> As you journey around the building, be sure to look for the nostalgic wall graphics in unexpected places. You may find characters from the Land of Oz, nods to Kara’s favorite movies, and even the “gorilla in the room.”
+                <p><strong>Welcome to the house that Warriors™ built.</strong> They are the heart and soul of this company, embodying our values, living our brand, and fighting the good fight every day for our members. They’re the reason we succeed. They’re the reason we’re here. Right here. On a brand-new campus where Warriors can thrive. 
+                </p> 
+
+                <p>You know it’s right when everything just falls into place. Five floors, five foundational pillars, and five senses to take it all in. Warriors weighed in on furniture and fixtures in focus groups, and we’ve incorporated our past, present and future into the design — who thought five storeys would have so many stories to tell?</p>
+
+                <p> As you journey around the building, be sure to look for the nostalgic wall graphics in unexpected places. You may find characters from the Land of Oz, nods to Kara’s favorite movies, and even the “gorilla in the room.” These “Easter eggs” are a nod to our history and brand.
                 </p>
             </div>
             <div className='text-content-container'>
@@ -43,10 +46,37 @@ function Home() {
                     <hr className="pillar-underline" />
                 </div>
                 <p><strong>What is a band pillar? </strong></p>
-                <p>Just as pillars hold up a roof, brand pillars support the brand — we have five of them. Everything we do, from our training and quality assurance to our performance evaluations and Pod structure, is based on these pillars. By staying true to them we provide the guidance and support our members need throughout every step of their journeys.</p>
-                <p>For every floor, there’s a pillar. And for every pillar, there are great branded features in our new  building, such as color, wall graphics and conference room naming.</p>
+                <p>Just as pillars hold up a roof, brand pillars support the brand — and we have five of them. Everything we do, from our training and quality assurance to our performance evaluations and Pod structure, is based on these pillars. By staying true to them we provide the guidance and support our members need throughout every step of their healthcare journeys. </p>
+
+                <p>For every floor, there’s a pillar. And for every pillar, there are great branded features in our new building, such as color, wall graphics and conference room naming.</p>
             </div>
 
+                        {/* --------Added section-------- */}
+{/* 
+            <div className='text-content-container'>
+                <div className="section-header">
+                    <h2>Defining Pillars</h2>
+                    <hr className="pillar-underline" />
+                </div>
+                <p><strong>OUR COMPANY CULTURE IS ALSO BUILT
+                ON THESE FOUNDATIONAL PILLARS, AND
+                    NOW, SO IS OUR HEADQUARTERS.</strong></p>
+                <p>For every floor, there’s a pillar. And for every
+                pillar, there are great branded features, such
+                as color, wall graphics and conference room
+naming, to name a few.</p>
+            </div>
+
+            <div className='text-content-container'>
+            
+                <p><strong>OUR COMPANY CULTURE IS ALSO BUILT
+                ON THESE FOUNDATIONAL PILLARS, AND
+                    NOW, SO IS OUR HEADQUARTERS.</strong></p>
+                <p>For every floor, there’s a pillar. And for every
+                pillar, there are great branded features, such
+                as color, wall graphics and conference room
+naming, to name a few.</p>
+            </div> */}
             {/* --------Pillar section-------- */}
             <HomePillars />
 

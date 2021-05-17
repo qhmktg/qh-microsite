@@ -30,34 +30,23 @@ export default function floor2() {
 
             <Furniture
                 img={floor2Chair}
-                headline="THIS HIGH-TOP GOT 77 THUMBS UP FOR CONNECTIVITY AND FIVE STARS FOR PRIVACY." />
+                headline="TUSH TESTED, WARRIOR APPROVED" />
             <Pillar 
              pillar="Warrior" 
              pillarStyle="pillarGreen"
-             pillarImage={pillarWarrior}/>
+             pillarImage={pillarWarrior}
+             pillarCopy="We are passionate about taking on the parties that members perceive to be either hostile or unfriendly to their interests."/>
             <MemberQuote
-                quote={[<strong>&quot; To My Quantum Health Warrior:</strong>, "How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done. You are making a difference in the world. Don’t ever forget that.quot;"]} />
+                quote={[ <span>&quot;</span>, "One of our members was in an accident that left him a paraplegic. It killed his best friend, so the fact he even survived it is a miracle. But he faces a new normal: life in a wheelchair with painful survivor’s guilt. I connected with him three months after the crash. He shared that neighbors were taking turns carrying him in and out of the house because he and his wife didn’t have a wheelchair ramp. He was also trying to find someone to modify his care with hand controls so that he could drive. Helping him in every way possible became my mission. I set up therapy sessions, chased authorizations, outreached for medical supplies, assisted with claims, found a company to build him a wheelchair ramp, identified an organization to get him a mobility scooter and, most importantly, provided emotional support and resources to help him through feelings of depression and anger." ,<strong> He is getting stronger every day and is in much better spirits. And I am proud to be by his side as he does.&quot;</strong> ]} />
             <div>
                 <FindMeSection />
-                {/*<FindMe
-            header="Warm and Fuzzy, With a Secret Weapon"
-            easterEggImage="https://via.placeholder.com/300"
-            to='/WarmAndFuzzy' />
-                <FindMe
-            header="The Birds"
-            easterEggImage="https://via.placeholder.com/300"
-            to='/TheBirds' />
-               <FindMe
-            header="Put 'em Up, Put 'em Up"
-            easterEggImage="https://via.placeholder.com/300"
-            to='/PutEmUp' /> */}
                 <div className="cards">
                     <div className="cards__container">
                         <div className="cards__wrapper">
                             <ul className="cards_items">
                                 <CardItem
                                     src={bunny}
-                                    text="Warm and Fuzzy, With A Secret Weapon"
+                                    text="The Bunny"
                                     label='Adventure'
                                     path='/WarmAndFuzzy'
                                     CardStyle='green' />
@@ -70,7 +59,7 @@ export default function floor2() {
                                     alt='crows'/>
                                 <CardItem
                                     src={lion}
-                                    text="Put ‘Em Up, Put ‘Em Up "
+                                    text="Cowardly Lion"
                                     label='Adventure'
                                     path='/PutEmUp'
                                     CardStyle='green' />
@@ -80,7 +69,7 @@ export default function floor2() {
                 </div>
             </div>
             <ConferenceRoom
-                rooms={['RAMP UP CONFERENCE ROOM (Main)', 'THE SHIELD', 'SUPER HERO']}
+                rooms={['RAMP UP (Main)', 'THE SHIELD', 'SUPER HERO']}
                 style="floor-2-bg"
             />
             <Footer />

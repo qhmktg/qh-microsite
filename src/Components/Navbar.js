@@ -25,43 +25,45 @@ function Navbar() {
 
     return (
         <>
-            <div className="Nav-master-container">
-                <nav className="navbar ">
-                    <div className="navbar-container">
-                        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                            <img alt='quantum-health logo' src={colorLogo} />
-                        </Link>
-                        <div className="menu-icon" onClick={handleClick}>
-                            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <div className="stickyNav">
+                <div className="Nav-master-container">
+                    <nav className="navbar ">
+                        <div className="navbar-container">
+                            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                                <img alt='quantum-health logo' src={colorLogo} />
+                            </Link>
+                            <div className="menu-icon" onClick={handleClick}>
+                                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+                            </div>
+                            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                                <li className='nav-item'>
+                                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link>
+                                </li>
+                                <li className='nav-item'>
+                                    <Link to='/floor-1' className='nav-links' onClick={closeMobileMenu}>Floor 1</Link>
+                                </li>
+                                <li className='nav-item'>
+                                    <Link to='/floor-2' className='nav-links' onClick={closeMobileMenu}>Floor 2</Link>
+                                </li>
+                                <li className='nav-item'>
+                                    <Link to='/floor-3' className='nav-links' onClick={closeMobileMenu}>Floor 3</Link>
+                                </li>
+                                <li className='nav-item'>
+                                    <Link to='/floor-4' className='nav-links' onClick={closeMobileMenu}>Floor 4</Link>
+                                </li>
+                                <li className='nav-item'>
+                                    <Link to='/floor-ll' className='nav-links' onClick={closeMobileMenu}>Floor LL</Link>
+                                </li>
+                                <li className='nav-item'>
+                                    <a target='_blank' href='https://quantum-health.com/' className='nav-links' onClick={closeMobileMenu}>Quantum-Health</a>
+                                </li>
+                            </ul>
+                            {
+                                button && <Button buttonStyle='btn--outline'> SIGN UP</Button>
+                            }
                         </div>
-                        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                            <li className='nav-item'>
-                                <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link to='/floor-1' className='nav-links' onClick={closeMobileMenu}>Floor 1</Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link to='/floor-2' className='nav-links' onClick={closeMobileMenu}>Floor 2</Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link to='/floor-3' className='nav-links' onClick={closeMobileMenu}>Floor 3</Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link to='/floor-4' className='nav-links' onClick={closeMobileMenu}>Floor 4</Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link to='/floor-ll' className='nav-links' onClick={closeMobileMenu}>Floor LL</Link>
-                            </li>
-                            <li className='nav-item'>
-                                <a target='_blank' href='https://quantum-health.com/' className='nav-links' onClick={closeMobileMenu}>Quantum-Health</a>
-                            </li>
-                        </ul>
-                        {
-                            button && <Button buttonStyle='btn--outline'> SIGN UP</Button>
-                        }
-                    </div>
-                </nav>
+                    </nav>
+                </div>
             </div>
         </>
     );
