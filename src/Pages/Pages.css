@@ -102,6 +102,10 @@ color: black !important;
 color: black !important;
 }
 
+.floor-LL-bg p{
+color: black !important;
+}
+
 .floor-LL-bg .pillar-underline{
 border: 1px black solid !important;
 }
@@ -150,8 +154,19 @@ filter: drop-shadow(0 0 10px rgb(97, 97, 97));
 transform: rotate(20deg);
 width: 200%;
 top: 25%;
+left: -50%;
+}
+
+.caution-test{
+  z-index:99;
+position: absolute;
+filter: drop-shadow(0 0 10px rgb(97, 97, 97));
+transform: rotate(20deg);
+width: 200%;
+top: 25%;
    left: -50%;
 }
+
 .caution-container{
 position: absolute;
   height: 100vh; 

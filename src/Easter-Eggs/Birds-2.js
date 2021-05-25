@@ -4,7 +4,7 @@ import crows from '../images/210215_building_graphics_3135_f.png'
 
 function Birds() {
     return (
-        <div>
+        <div className="the-birds">
             <EasterEggLanding 
             img={crows}
             Title="The Birds"

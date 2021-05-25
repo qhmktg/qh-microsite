@@ -1,10 +1,10 @@
 import React from 'react'
 import EasterEggLanding from'./Easter-Egg-Landing'
-import scarecrow from '../images/210215_building_graphics_3434_scarecrow-egg.png'
+import scarecrow from '../images/210215_building_graphics_3434_scarecrow.png'
 
 function Brain() {
     return (
-        <div>
+        <div className="scarecrow">
             <EasterEggLanding 
             img={scarecrow}
             Title="IF I ONLY HAD A BRAIN"
@@ -13,7 +13,6 @@ function Brain() {
             BackTo="Back to floor 4"
             imgalt="Scare crow"
             style="floor-4-bg"
-
             />
         </div>
     )

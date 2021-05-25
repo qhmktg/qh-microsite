@@ -4,7 +4,7 @@ import lego from '../images/210215_building_graphics_3405_LEGOs-egg.png'
 
 function Lego() {
     return (
-        <div>
+        <div className="lego">
             <EasterEggLanding 
             img={lego}
             Title="LEGO MY PILLARS"

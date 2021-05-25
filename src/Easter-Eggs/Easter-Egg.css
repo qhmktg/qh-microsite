@@ -29,6 +29,18 @@ text-align: center;
     border-top-left-radius: 25px;
 }
 
+.scarecrow .easter-egg-card{
+    top: 35%;
+}
+
+.lego .easter-egg-card{
+    top: 45%;
+}
+
+.the-birds .easter-egg-card{
+    top: 40%;
+}
+
 .easter-egg-content{
     padding: 2rem 0;
     text-align: left;
@@ -45,6 +57,9 @@ text-align: center;
     overflow: hidden;
 }
 
+.easter-egg-content > h1{
+    text-transform: uppercase;
+}
 
 @media screen and (min-height: 800px) {
 .easter-egg-card {
