@@ -17,6 +17,7 @@ height: 80px;
   z-index: 999;
   box-shadow: 0 0 10px #333;
       position: -webkit-sticky;
+      box-sizing: border-box;
 
 }
 .Nav-master-container{
@@ -191,4 +192,7 @@ height: 100%;
   .nav-item {
     height: 100%;
   }
+}
+
+@media only screen and (min-width : 321px) and (orientation: landscape) {
 }

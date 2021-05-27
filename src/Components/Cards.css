@@ -8,7 +8,7 @@
   }
   h5{
     font-family: 'Avenir Next', sans-serif;
-    font-weight: 300;
+    font-weight: normal;
   }
   .cards__container {
     display: flex;
@@ -33,7 +33,6 @@
   
   .cards__item {
     display: flex;
-    flex: 1;
     height: 100%;
 
     /* margin: 0 1rem; */
@@ -151,5 +150,31 @@
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;
+    }
+  }
+  
+  @media only screen and (min-width : 321px) and (orientation: landscape) {
+    .cards__container {
+      flex-flow: row;
+      flex-wrap: wrap;
+      align-items: center;
+      max-width: 1120px;
+      margin: 0 auto;
+
+    }
+    .cards__item {
+      display: flex;
+      /* height: auto; */
+      width: 50%;
+      padding:  1rem;
+      /* margin: 0 1rem; */
+      border-radius: 10px;
+    }
+    .cards_items{
+      display: flex;
+      flex-flow: row;
+      flex-wrap: wrap;
+      justify-content: center;
+
     }
   }

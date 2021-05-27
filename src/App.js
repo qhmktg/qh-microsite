@@ -45,7 +45,9 @@ function useWindowSize() {
   return size;
 }
 
+
 function App() {
+ 
   const [width] = useWindowSize();
   //Render desktop splash page on dimensions bigger than 768px
   if (width > 768) {

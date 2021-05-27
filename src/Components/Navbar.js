@@ -4,7 +4,7 @@ import { Button } from './Button';
 import './Navbar.css';
 import colorLogo from '../images/QUANTUM-LOGO-C-01.svg'
 
-function Navbar() {
+function Navbar(props) {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false)

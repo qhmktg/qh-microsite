@@ -33,9 +33,9 @@ z-index: 1;
 
 }
  .splashSection .floor-1-bg {
-background-image: url("../images/QH_headquarters_dublin_01_1st-new.png");
+background-image: url("../images/QH_headquarters_dublin_1.png");
 background-blend-mode: multiply;
-background-position: -5rem -10rem;
+background-position: -15rem -1rem;
 }
 
 .floor-1-bg{
@@ -49,9 +49,9 @@ background-color: var(--green) !important;
 }
 
 .splashSection .floor-2-bg{
-background-image: url("../images/QH_headquarters_dublin_01_1st-new.png");
+background-image: url("../images/QH_headquarters_dublin_2.png");
 background-blend-mode: multiply;
-background-position: -20rem -15rem;
+background-position: -18rem -15rem;
 }
 
 .floor-3-bg{
@@ -61,7 +61,7 @@ background-color: var(--purple) !important;
 
 .splashSection .floor-3-bg{
 background-color: var(--purple) !important;
-background-image: url("../images/QH_headquarters_dublin_01_1st-new.png");
+background-image: url("../images/QH_headquarters_dublin_3.png");
 background-blend-mode: multiply;
 background-position: -45rem -45rem;
 }
@@ -72,13 +72,13 @@ background-color: var(--orange) !important;
 }
 
 .splashSection .floor-4-bg{
-background-image: url("../images/QH_headquarters_dublin_01_1st-new.png");
+background-image: url("../images/QH_headquarters_dublin_4.png");
 background-blend-mode: multiply;
 background-position: -75rem -80rem;
 }
 
 h2{
-font-weight: 200;
+font-weight: normal;
 }
 
 .section-header{
@@ -197,21 +197,19 @@ max-width: 300px;
   }
 
   @media only screen and (min-width : 321px) and (orientation: landscape) {
-  .hero-container .Home-bg {
-  align-items: right !important;
-}
 
-.easter-egg-card {
-height: 200vh !important;
-    position: absolute;
-    top: 75% !important;
-    width: 100%;
-    left: 0;
-    z-index: -1;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-}
-.caution{
+
+  .easter-egg-card {
+      height: 200vh !important;
+      position: absolute;
+      top: 75% !important;
+      width: 100%;
+      left: 0;
+      z-index: -1;
+      border-top-right-radius: 25px;
+      border-top-left-radius: 25px;
+  }
+  .caution{
       z-index: 99;
       position: absolute;
       filter: drop-shadow(0 0 10px rgb(97, 97, 97));
@@ -248,7 +246,7 @@ height: 200vh !important;
   flex-wrap: wrap;
   }
   .section-header{
-  width: 100vw;
+  width: 100%;
   }
   .pillar-content{
   width: 50%;
@@ -256,6 +254,43 @@ height: 200vh !important;
   top: 50%;
   }
   .pillar{
-  width: 50%;}
-
+  width: 50%;
+  }
+  .Home-bg{
+    background-color: var(--green) !important;
+    align-items: center; 
+     justify-content: center;
+     background-image:  url("../images/welcome-LND.png");
+     background-repeat: no-repeat;
+     background-size: 100% auto;
+     background-position-x: -5rem;
+    }
+    .Home-bg .hero-copy{ 
+    position: absolute;
+    right: 2rem;
+  }
+  .home-heart-sheild{
+    stroke: black;
+    mix-blend-mode: multiply;
+    width:auto; 
+    height: 60vh;
+    margin: 0;
+    position: absolute;
+    right: 7rem;
+    z-index: 0;
+  }
+  .floor-to-ceiling{
+    background-color: var(--yellow) !important;
+    background-image: none;
+    object-fit: contain;
+    height: 100vh;
+    justify-content: center;
+    background-size: 0% auto !important;
+  }
 }
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape) {
+
+                   
+                   }

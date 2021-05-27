@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const STYLES =['btn--primary', 'btn--outline'];
 const SIZES =['btn--small', 'btn--medium', 'btn--large'];
-
+// closeMobileMenu
 export const Button = ({ 
     children, 
     type, 
