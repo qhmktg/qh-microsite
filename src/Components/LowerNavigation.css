@@ -11,7 +11,7 @@
 
 .button-flr-1{
     background-color: #008E92;
-    background-image: url("../images/QH_headquarters_dublin_1.png");
+    background-image: url("../images/QH_headquarters_dublin_3-2.png");
     background-blend-mode: multiply;
     background-position: -60rem -10rem;
     mix-blend-mode:multiply;
@@ -20,7 +20,7 @@
 
 .button-flr-2{
     background-color: #71A300;
-    background-image: url("../images/QH_headquarters_dublin_2.png");
+    background-image: url("../images/QH_headquarters_dublin_4-2.png");
     background-blend-mode: multiply;
     mix-blend-mode:multiply;
 
@@ -29,7 +29,7 @@
 
 .button-flr-3{
     background-color: #653C5F;
-    background-image: url("../images/QH_headquarters_dublin_3.png");
+    background-image: url("../images/QH_headquarters_dublin_3-2.png");
     background-blend-mode: multiply;
     mix-blend-mode:multiply;
 
@@ -38,16 +38,15 @@
 
 .button-flr-4{
     background-color: #DF6F34;
-    background-image: url("../images/QH_headquarters_dublin_4.png");
+    background-image: url("../images/QH_headquarters_dublin_4-2.png");
     background-blend-mode: multiply;
     mix-blend-mode:multiply;
-
     background-position: -75rem -80rem;
 }
 
 .button-flr-ll{
     background-color: #FFCD00;
-    background-image: url("../images/QH_headquarters_dublin_LL.png");
+    background-image: url("../images/QH_headquarters_dublin_LL-2.png");
     background-blend-mode: multiply;
     mix-blend-mode:multiply;
     background-position: -12rem 35rem;

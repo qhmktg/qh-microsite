@@ -33,7 +33,7 @@ z-index: 1;
 
 }
  .splashSection .floor-1-bg {
-background-image: url("../images/QH_headquarters_dublin_1.png");
+background-image: url("../images/QH_headquarters_dublin_3-2.png");
 background-blend-mode: multiply;
 background-position: -15rem -1rem;
 }
@@ -49,9 +49,9 @@ background-color: var(--green) !important;
 }
 
 .splashSection .floor-2-bg{
-background-image: url("../images/QH_headquarters_dublin_2.png");
+background-image: url("../images/QH_headquarters_dublin_4-2.png");
 background-blend-mode: multiply;
-background-position: -18rem -15rem;
+background-position: -100rem -5rem;
 }
 
 .floor-3-bg{
@@ -61,7 +61,7 @@ background-color: var(--purple) !important;
 
 .splashSection .floor-3-bg{
 background-color: var(--purple) !important;
-background-image: url("../images/QH_headquarters_dublin_3.png");
+background-image: url("../images/QH_headquarters_dublin_3-2.png");
 background-blend-mode: multiply;
 background-position: -45rem -45rem;
 }
@@ -72,7 +72,7 @@ background-color: var(--orange) !important;
 }
 
 .splashSection .floor-4-bg{
-background-image: url("../images/QH_headquarters_dublin_4.png");
+background-image: url("../images/QH_headquarters_dublin_3-2.png");
 background-blend-mode: multiply;
 background-position: -75rem -80rem;
 }

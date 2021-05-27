@@ -12,11 +12,12 @@
 }
 
 .floor-to-ceiling{
-      background: url("../images/210215_building_graphics_3306_TOTO_wall_more_yellow2.png") bottom center/cover no-repeat;
+      background: url("../images/210215_building_graphics_3306_TOTO_wall_more_yellow2.png")  bottom -4rem center/cover no-repeat;
       object-fit: contain;
       background-size: auto 100%;
       height: 100vh;
       justify-content: center;
+      padding: 2rem;
       background-color: rgb(231,174,29);
     background-size: 100% auto;
 }
