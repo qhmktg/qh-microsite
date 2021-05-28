@@ -52,21 +52,21 @@ export default function floor3() {
                                     src={treePillar}
                                     text="Christmas Vacation Scene"
                                     label='Adventure'
-                                    path='/DumpTruck'
+                                    path='/3132'
                                     CardStyle='purple'
                                     alt='christmas tree' />
                                 <CardItem
                                     src={tinman}
                                     text="The Tin Man"
                                     label='Adventure'
-                                    path='/Sparrows'
+                                    path='/7940'
                                     CardStyle='purple'
                                     alt='tin man' />
                                 <CardItem
                                     src={noJackasses}
                                     text="No Jackasses"
                                     label='Adventure'
-                                    path='/NoJackasses'
+                                    path='/6055'
                                     CardStyle='purple'
                                     alt='donkey' />
                             </ul>

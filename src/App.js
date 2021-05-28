@@ -74,20 +74,20 @@ function App() {
                 <Route path='/lowerLevel' exact component={lowerLevel} />
                 {/* ---------Easter Egg link paths--------- */}
                 {/* <Route path='/Easter-Egg-Landing' exact component={EasterEggLanding} /> */}
-                <Route path='/Gorilla' exact component={Gorilla} />
+                <Route path='/4211' exact component={Gorilla} />
                 <Route path='/892067' exact component={RubbySlippers} />
                 {/* ---------Floor 2--------- */}
-                <Route path='/WarmAndFuzzy' exact component={WarmFuzzy} />
-                <Route path='/TheBirds' exact component={Birds} />
-                <Route path='/PutEmUp' exact component={PutEmUp} />
+                <Route path='/4123' exact component={WarmFuzzy} />
+                <Route path='/9584' exact component={Birds} />
+                <Route path='/1502' exact component={PutEmUp} />
                 {/* ---------Floor 3--------- */}
-                <Route path='/DumpTruck' exact component={Dumptruck} />
-                <Route path='/NoJackasses' exact component={NoJacasses} />
-                <Route path='/Sparrows' exact component={Sparrows} />
+                <Route path='/3132' exact component={Dumptruck} />
+                <Route path='/6055' exact component={NoJacasses} />
+                <Route path='/7940' exact component={Sparrows} />
                 {/* ---------Floor 4--------- */}
-                <Route path='/Lego' exact component={Lego} />
-                <Route path='/Brain' exact component={Brain} />
-                <Route path='/Lollipops' exact component={Lollipops} />
+                <Route path='/8956' exact component={Lego} />
+                <Route path='/6620' exact component={Brain} />
+                <Route path='/4013' exact component={Lollipops} />
               </Switch>
             </ScrollToTop>
           </Router>

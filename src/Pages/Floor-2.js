@@ -54,20 +54,20 @@ export default function floor2() {
                                     src={bunny}
                                     text="The Bunny"
                                     label='Adventure'
-                                    path='/WarmAndFuzzy'
+                                    path='/4123'
                                     CardStyle='green' />
                                 <CardItem
                                     src={crows}
                                     text="The Birds"
                                     label='Adventure'
-                                    path='/TheBirds'
+                                    path='/9584'
                                     CardStyle='green' 
                                     alt='crows'/>
                                 <CardItem
                                     src={lion}
                                     text="Cowardly Lion"
                                     label='Adventure'
-                                    path='/PutEmUp'
+                                    path='/1502'
                                     CardStyle='green' />
                             </ul>
                         </div>

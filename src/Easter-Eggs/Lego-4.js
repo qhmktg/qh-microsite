@@ -7,7 +7,7 @@ function Lego() {
         <div className="lego">
             <EasterEggLanding 
             img={lego}
-            Title="LEGO MY PILLARS"
+            Title="LEGOS"
             info='We know the building blocks of our business: sanctuary, sticking with them, warrioring, friendship and expertise. Shannon Skaggs takes these building blocks literally.'
             floor="/floor-4"
             BackTo="Back to floor 4"

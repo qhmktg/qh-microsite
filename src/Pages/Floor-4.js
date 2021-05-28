@@ -51,19 +51,19 @@ export default function floor4() {
                                     src={lollipop}
                                     text="Lollipops"
                                     label='Adventure'
-                                    path='/Lollipops'
+                                    path='/4013'
                                     CardStyle='orange' />
                                 <CardItem
                                     src={lego}
                                     text="Legos"
                                     label='Adventure'
-                                    path='/Lego'
+                                    path='/8956'
                                     CardStyle='orange' />
                                 <CardItem
                                     src={scarecrow}
                                     text="Scarecrow"
                                     label='Adventure'
-                                    path='/Brain'
+                                    path='/6620'
                                     CardStyle='orange' />
                             </ul>
                         </div>

@@ -4,7 +4,7 @@
 }
 
 .easter-egg-image{
-  filter: drop-shadow(0 0 10px rgb(97, 97, 97));
+  filter: drop-shadow(0 2.8px 2.2px rgb(97, 97, 97));
   max-height: 350px;
   width: auto;
   max-width: 100%;

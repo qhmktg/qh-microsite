@@ -58,7 +58,7 @@ export default function floor1() {
                                     src={GorillaCardImage}
                                     text="Gorilla in the Room"
                                     label='Adventure'
-                                    path='/Gorilla'
+                                    path='/4211'
                                     CardStyle='blue' />
                             </ul>
                         </div>
