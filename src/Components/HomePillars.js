@@ -16,25 +16,25 @@ function HomePillars() {
                 </div>
                 <div className="home-pillar-container">
                     <div className="pillar-cards">
-                        <img className="pillar-img" src={stickWithEm} />
+                        <img className="pillar-img" src={stickWithEm} alt="Stick With em pillar"/>
                         <h3>Stick with Them</h3>
                     </div>
                     <div className="pillar-cards">
-                        <img className="pillar-img" src={Warrior} />
+                        <img className="pillar-img" src={Warrior} alt="Warrior pillar"/>
                         <h3>Warrior</h3>
 
                     </div>
                     <div className="pillar-cards">
-                        <img className="pillar-img" src={Friendship} />
+                        <img className="pillar-img" src={Friendship} alt="Friendship pillar" />
                         <h3>Friendship</h3>
                     </div>
                     <div className="pillar-cards">
-                        <img className="pillar-img" src={Expertise} />
+                        <img className="pillar-img" src={Expertise} alt="Expertise pillar"/>
                         <h3>Expertise</h3>
 
                     </div>
                     <div className="pillar-cards orphan-card">
-                        <img className="pillar-img" src={Sanctuary} />
+                        <img className="pillar-img" src={Sanctuary} alt="Sanctuary pillar"/>
                         <h3>Sanctuary</h3>
                     </div>
                 </div>

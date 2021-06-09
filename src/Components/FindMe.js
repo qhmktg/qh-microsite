@@ -10,7 +10,7 @@ function FindMe(props) {
                 <h3>{props.header}</h3>
             </div>
             <Link to={props.to}>
-                <img src={props.easterEggImage} />
+                <img src={props.easterEggImage} alt={props.alt}/>
 
             </Link>
         </div>

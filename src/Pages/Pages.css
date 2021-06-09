@@ -32,6 +32,19 @@ z-index: 0;
 z-index: 1;
 
 }
+
+ul{
+  display: inline;
+}
+
+li{
+  box-sizing: border-box;
+  list-style-position:inside;
+  padding: .15rem;
+}
+
+
+
  .splashSection .floor-1-bg {
 background-image: url("../images/QH_headquarters_dublin_3-2.png");
 background-blend-mode: multiply;
@@ -77,6 +90,26 @@ background-blend-mode: multiply;
 background-position: -75rem -80rem;
 }
 
+.splashSection .floor-LL-bg{
+background-color: var(--yellow) !important;
+color: black !important;
+background-image: url("../images/QH_headquarters_dublin_3-2.png");
+background-blend-mode: multiply;
+background-position: -75rem -90rem;
+}
+
+.floor-LL-bg .btn--outline{
+    background-color: transparent;
+    color: #242424;
+    padding: 8px 15px;
+    transition: all 0.3s ease-out;
+    border: 2px solid var(--primary);
+}
+.LL-egg{
+  background-color: transparent !important;
+  color: black !important;
+}
+
 h2{
 font-weight: normal;
 }
@@ -85,10 +118,18 @@ font-weight: normal;
   color: #828282;
 }
 
-.underline{
-
+.LL-egg .easter-egg-content {
+  color: black !important;
 }
 
+.LL-egg .btn--small{
+    padding: 8px 15px;
+    font-size: 18px !important;
+    font-weight: 600;
+    color: black;
+    max-width: 200px;
+    border: 2px solid black;
+}
 /*----------------------------------------------*/
 /*---------------FLoor LL styling---------------*/
 /*----------------------------------------------*/
@@ -108,6 +149,11 @@ color: black !important;
 
 .floor-LL-bg .pillar-underline{
 border: 1px black solid !important;
+}
+
+.floor-LL-bg .conference-room-underline {
+  border: 1px black solid !important;
+
 }
 
 @media screen and (min-width: 768px){
@@ -141,7 +187,7 @@ font-weight: 400;
 }
 
 .text-content-container > p{
-padding-bottom: 3rem !important;}
+padding-bottom: 3rem;}
 
 .easter-egg-card .floor-4-bg{
 top:25% !important;
@@ -286,6 +332,10 @@ max-width: 300px;
     height: 100vh;
     justify-content: center;
     background-size: 0% auto !important;
+  }
+  .text-content-container p {
+    padding: 0;
+    padding-bottom: 0 !important;
   }
 }
 @media only screen and (min-device-width: 480px) 

@@ -26,9 +26,12 @@ import Sparrows from './Easter-Eggs/sparrows-3'
 import Lego from './Easter-Eggs/Lego-4'
 import Brain from './Easter-Eggs/Brain-4'
 import Lollipops from './Easter-Eggs/Lollipops-4'
+// Floor LL imports
+import BlueBirds from './Easter-Eggs/Flying-Blue-Birds-LL'
+import CupofCoffee from './Easter-Eggs/Cup-of-Coffee-LL'
+import Legends from './Easter-Eggs/Legends-Never-Die'
+
 import './Pages/Pages.css'
-
-
 
 
 
@@ -88,6 +91,10 @@ function App() {
                 <Route path='/8956' exact component={Lego} />
                 <Route path='/6620' exact component={Brain} />
                 <Route path='/4013' exact component={Lollipops} />
+                {/* ---------Floor LL--------- */}
+                <Route path='/8717' exact component={BlueBirds} />
+                <Route path='/6356' exact component={CupofCoffee} />
+                <Route path='/4619' exact component={Legends} />
               </Switch>
             </ScrollToTop>
           </Router>

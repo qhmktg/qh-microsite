@@ -6,12 +6,15 @@ import Footer from '../Components/Footer'
 import './Easter-Egg.css'
 
 const STYLES =['floor-1-bg', 'floor-2-bg', 'floor-3-bg', 'floor-4-bg', 'floor-LL-bg'];
+const eggSTYLES =['Normal', 'LL-egg'];
 
 function EasterEggLanding(props) {
     const checkStyling = STYLES.includes(props.style) ? props.style : STYLES[0];
+    const eggStyling = eggSTYLES.includes(props.eggStyle) ? props.eggStyle : eggSTYLES[0];
+
     return (
         <div>
-            <div className="easter-egg-container">
+            <div className={`easter-egg-container ${eggStyling}`}>
 
 
                 <div className="easter-egg-image-container">

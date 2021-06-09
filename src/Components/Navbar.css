@@ -59,6 +59,10 @@ height: 100%;
   margin-right: 2rem;
 }
 
+.nav-menu  li {
+  padding: 0 !important;
+}
+
 .nav-item {
   height: 100%;
 }
@@ -95,7 +99,6 @@ height: 100%;
   .NavbarItems {
     position: relative;
   }
-
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -195,4 +198,21 @@ height: 100%;
 }
 
 @media only screen and (min-width : 321px) and (orientation: landscape) {
+  .nav-links {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .nav-item {
+    height: 100%;
+    width: 50%;
+  }
+  .nav-menu{
+    flex-wrap: wrap;
+    max-height: 300px;
+  }
+
+  li:nth-child(6) nav-links{
+  margin-left: 1rem;
+}
 }
