@@ -26,3 +26,19 @@
     padding-bottom: 0;
 
 }
+
+@media only screen and (min-width : 321px) and (orientation: landscape) {
+
+    .floor-to-ceiling{
+      background-color: var(--yellow) !important;
+      background-image: none;
+      object-fit: contain;
+      height: 100%;
+      justify-content: center;
+      background-size: 0% auto !important;
+    }
+    .text-content-container p {
+      padding: 0;
+      padding-bottom: 0 !important;
+    }
+  }
