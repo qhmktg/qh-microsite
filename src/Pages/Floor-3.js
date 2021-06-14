@@ -20,7 +20,7 @@ export default function floor3() {
             <div className="splashSection">
                 <HeroSection
                     // body={[<p className='heroCallOut'>FOR SOME, PRIVACY IS SANCTUARY.</p>, <br />, "Phone rooms, nap nooks and privacy chairs— all designed for privacy and taking time out of the fray."]}
-                    body="This floor aligns with our “Friendship” pillar. Many of our members’ situations are very personal, with calls sometimes going into great detail with sensitive information. Members often confide in their Warriors during emotionally charged conversations that can get very intense. Our empathy and compassion provide them comfort and sanctuary, along with positive outcomes — some of which being lasting friendships. "
+                    body="This floor aligns with our “Friendship” pillar. Many of our members’ situations are very personal, with calls sometimes going into great detail with sensitive information. Members often confide in their Warriors during emotionally charged conversations that can get very intense. Our empathy and compassion provide them comfort and sanctuary, along with positive outcomes &mdash; some of which are lasting friendships. "
                     head="Third Floor"
                     label='Adventure'
                     style="floor-3-bg"
@@ -30,17 +30,17 @@ export default function floor3() {
                 img='https://via.placeholder.com/300'
                 headline="THIS HIGH-TOP GOT 77 THUMBS UP FOR CONNECTIVITY AND FIVE STARS FOR PRIVACY." /> */}
             <div className='text-content-container'>
-                <p><strong>For some Warriors, privacy is THEIR sanctuary.</strong> Phone rooms, nap nooks and privacy chairs — all designed for time out from the front lines. <strong>For others, socializing provides an outlet.</strong> Every floor in our new home has huddle rooms for small meetings, seating areas for light conversations and harvest tables for Pod meetings and the always-popular Pod-lucks.</p>
+                <p><strong>For some Warriors, privacy is THEIR sanctuary.</strong> Phone rooms, nap nooks and privacy chairs — all designed for time out from the front lines. <strong>For others, socializing provides an outlet.</strong> Every floor in our new home has huddle rooms for small meetings, seating areas for light conversations, and harvest tables for Pod meetings and the always-popular Pod-lucks.</p>
             </div>
             <Pillar
                 pillar="Friendship"
                 pillarStyle="pillarPurple"
                 pillarImage={pillar}
-                pillarCopy="We work closely with our members, often in times of need, and develop deep relationships. We become their friends and confidantes. " />
+                pillarCopy="We work closely with our members, often in times of need, and develop deep relationships. We become their friends and confidants." />
             <MemberQuote
-                quote={[<p>EVER WONDER WHERE “JAM JAR” CAME FROM?</p>, <br />,<span>&quot;</span>,
+                quote={[<p>EVER WONDER WHERE “JAM JAR” CAME FROM?</p>, <br />,<span>&ldquo;</span>,
                     "In one of our conversations, you mentioned that you had talked to Barb on the day she was making strawberry jam. She told you that she was having a good day. The reason she had a good day was because you called her and talked to her and really cared. Please don’t ever change. ",
-                <strong>Your compassion and genuine interest in people you contact make all the difference in the world. </strong>, "I know Barb would have wanted me to fulfill her promise. Enjoy the strawberry jam with all the love Barb put inside. Thank you.", <span>&quot;</span>]}
+                <strong>Your compassion and genuine interest in people you contact make all the difference in the world. </strong>, "I know Barb would have wanted me to fulfill her promise. Enjoy the strawberry jam with all the love Barb put inside. Thank you.", <span>&rdquo;</span>]}
                 header="Member Quote" />
             <div>
                 <FindMeSection />

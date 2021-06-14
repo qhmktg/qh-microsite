@@ -36,10 +36,10 @@ export default function floor1() {
                 pillar="Stick with Them"
                 pillarStyle="pillarBlue"
                 pillarImage={stickWithEm}
-                pillarCopy="We stick with our members throughout their entire healthcare journey each and every step of the way."
+                pillarCopy="We stick with our members throughout their entire healthcare journey, each and every step of the way."
             />
             <MemberQuote
-                quote={[<strong>&quot;To My Quantum Health Warrior:</strong>, " How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done.", <strong>You are making a difference in the world. Don’t ever forget that.&quot;</strong>]} 
+                quote={[<strong>&ldquo;To My Quantum Health Warrior:</strong>, " How do I thank you for helping get me through the past six months? Recovering from the accident has been hard, but you have not only found ways to help me and save money, you have brought joy to the journey. I loved the picture you sent of you and the other Warriors congratulating me on my final surgery. I will hang on to that! ‘Thank you’ really doesn’t cover how I feel about what you have done.", <strong>You are making a difference in the world. Don’t ever forget that.&rdquo;</strong>]} 
                 header="Member Quote"/>
             <div>
                 <FindMeSection />

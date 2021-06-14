@@ -46,3 +46,24 @@ text-align: center;
 font-weight: 200;
 }
 
+
+
+  @media screen and (max-width: 361px) {
+    .home-pillar-container{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: wrap;
+        width: 275px;
+        }
+        .pillar-img{
+max-width: 125px;
+width: auto; 
+padding-bottom: .25rem;
+}
+        .pillar-cards{
+        display: inline-block;
+        max-width: 125px;
+        /*padding: .5rem .5rem 1.5rem .5rem;*/
+        padding-bottom: 2rem;
+        }
+  }

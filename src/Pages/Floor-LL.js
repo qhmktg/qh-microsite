@@ -9,6 +9,9 @@ import Pillar from '../Components/Pillar'
 // import caution from '../images/construction_tape_GettyImages-530479981.png'
 // import hardHat from '../images/hard_hat_yellow.png'
 import pillar from '../images/Sanctuary.svg'
+import legends from '../images/3014_legends-Card.png'
+import Coffee from '../images/3017_WBCO_Coffee_crop-SM.png'
+import BlueBirds from '../images/3026_blue_birds.png'
 
 export default function floorll() {
     return (
@@ -35,41 +38,39 @@ export default function floorll() {
                 pillarCopy="We provide a safe place where members can explore options and share anxieties." /> */}
             <div className="splashSection">
                 <HeroSection
-                    body="NO MATTER WHAT YOU CALL SANCTUARY, THIS FLOOR’S GOT IT."
+                    body=""
                     head="Lower Level"
                     label='Adventure'
                     style="floor-LL-bg"
                 />
             </div>
             <div className='text-content-container'>
-                <h2>THE LOWER LEVEL SCREAMS SANCTUARY, PROVIDING A WORKOUT ROOM, GAME ROOM AND PLENTY OF ROOM TO TAKE A WELL-DESERVED BREAK.</h2>
-                <p> Every floor in our new home has huddle rooms for small meetings, seating areas for light conversations and harvest tables for Pod meetings and the always-popular Pod-lucks. Culture destinations include:
-                    <br /><br />
-                    <ul>
-                        <li>Flatbreads and More station</li>
-                        <li>Homestyle Grill</li>
-                        <li>Bakery</li>
-                        <li>Sandwiches and Wraps</li>
-                        <li>Salad Bar</li>
-                        <li>Grab-n-Go</li>
-                        <li>Premium Coffee Bar</li>
-                        <li>Complementary Snacks</li>
-                        <li>Remote Order Pickup</li>
-                        <li>Beverages</li>
-                    </ul>
+                <h2>NO MATTER WHAT YOU CALL SANCTUARY, THIS FLOOR’S GOT IT — 85,000 SQUARE FEET OF IT</h2>
+                <p> It’s not a cafeteria. It’s not a break room. It’s a place for Warriors to unwind and recharge, complete with a fitness center, game room, and plenty of room to meet, eat and take in the amazing environment with a premium perk, poured by a professional barista at the <strong>JAVA SPOT.</strong> 
                 </p>
             </div>
             <Pillar
                 pillar="Sanctuary"
                 pillarStyle="pillarYellow"
                 pillarImage={pillar}
-                pillarCopy="We have extensive knowledge and expertise in virtually every aspect of the healthcare delivery system." />
+                pillarCopy="We provide a safe place where members can explore options and share anxieties. " />
             <div>
             <div className='text-content-container'>
-                <h2>FULL-SERVICE SANCTUARY</h2>
-                <p> It’s not a cafeteria. It’s not a break room. It’s a place for Warriors to take a break, unwind and recharge, complete with a workout room, game room and plenty of room to meet or eat lunch from the full-service cafeteria or enjoy the amazing environment with a premium perk, poured by a real barista.<br/><br/>
-                <strong>
-We are already a “Best Place to Work” without these 85,000 square feet of pure awesomeness.</strong> And as far as designing the new HQ goes, we’re definitely saving the best for last. The lower level is still under construction, under wraps, and understandably marvelous.
+                <h2>Sanctuary and food go hand in hand. Welcome to The Hungry Warrior!</h2>
+                <p> Food is comforting, nurturing, nourishing, and very much a part of Warrior culture. That’s why we’re pleased to offer a full-service, mouthwatering and hearty variety at The Hungry Warrior café! <br/><br/>
+                Food stations include: 
+                <br /><br />
+                    <ul className="LL-sanctuary">
+                        <li><strong>CRAVINGS</strong> homestyle grill</li>
+                        <li><strong>PERKS</strong> complimentary coffee</li>
+                        <li><strong>QUENCH</strong> beverage center</li>
+                        <li><strong>CHEF’S TABLE</strong> entrees </li>
+                        <li><strong>THE GARDEN</strong> salad bar</li>
+                        <li><strong>SAMMIES &#38; WRAPS</strong></li>
+                        <li><strong>FIRESIDE</strong> flat breads </li>
+                        <li><strong>ORDER UP</strong> remote order pickup</li>
+                        <li><strong>SWEET TOOTH</strong> baked goods and soft serve</li>
+                    </ul>
                 </p>
             </div>
                 <FindMeSection />
@@ -78,21 +79,21 @@ We are already a “Best Place to Work” without these 85,000 square feet of pu
                         <div className="cards__wrapper">
                             <ul className="cards_items">
                                 <CardItem
-                                    src="{treePillar}"
+                                    src={BlueBirds}
                                     text="Flying Blue Birds"
                                     label='Adventure'
                                     path='/8717'
                                     CardStyle='yellow'
                                     alt='christmas tree' />
                                 <CardItem
-                                    src="{treePillar}"
+                                    src={Coffee}
                                     text="Worlds Greatest Cup Of Coffee"
                                     label='Adventure'
                                     path='/6356'
                                     CardStyle='yellow'
                                     alt='tin man' />
                                 <CardItem
-                                    src="{treePillar}"
+                                    src={legends}
                                     text="Legends Never Die"
                                     label='Adventure'
                                     path='/4619'

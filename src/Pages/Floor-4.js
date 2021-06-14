@@ -20,7 +20,7 @@ export default function floor4() {
         <>
             <div className="splashSection">
                 <HeroSection
-                    body="The compassion and empathy with which Warriors provide are often game-changing for members who feel hopeless, as if no one is listening or doing anything to help them. Combining those Warrior traits with industry-leading expertise — this floor’s pillar — is what truly makes a difference when it comes to seeing members through to the best possible outcomes."
+                    body="The compassion and empathy Warriors provide are often game-changing for members who feel hopeless, as if no one is listening or doing anything to help them. Combining those Warrior traits with industry-leading expertise — this floor’s pillar — is what truly makes a difference when it comes to seeing members through to the best possible outcomes."
                     head="Fourth Floor"
                     label='Adventure'
                     style="floor-4-bg"
@@ -38,7 +38,7 @@ export default function floor4() {
                 pillarImage={pillar} 
                 pillarCopy="We have extensive knowledge and expertise in virtually every aspect of the healthcare delivery system."/>
             <MemberQuote
-                quote={[<span>&quot;</span>, "After receiving various notices from my insurer and hospital, I absolutely dreaded delving into the healthcare abyss to sort through the issues. I had gotten a letter from my company about Quantum, so I decided to call and see if they could help. I could not have been more pleased and surprised with the pleasant, professional, knowledgeable support I received from my Quantum Care Coordinator. He had all of the records at his fingertips. He sorted through the issues, confirmed current status and, to my amazement, proactively reached out to the various providers to coordinate a resolution. ", <strong> I was amazed! Thank you for an extraordinary experience. &quot;</strong>]}
+                quote={[<span>&ldquo;</span>, "After receiving various notices from my insurer and hospital, I absolutely dreaded delving into the healthcare abyss to sort through the issues. I had gotten a letter from my company about Quantum, so I decided to call and see if they could help. I could not have been more pleased and surprised with the pleasant, professional, knowledgeable support I received from my Quantum Care Coordinator. He had all of the records at his fingertips. He sorted through the issues, confirmed current status and, to my amazement, proactively reached out to the various providers to coordinate a resolution. ", <strong> I was amazed! Thank you for an extraordinary experience. &rdquo;</strong>]}
                 header="Member Quote"/>
 
             <div>

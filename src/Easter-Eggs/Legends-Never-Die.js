@@ -1,14 +1,14 @@
 import React from 'react'
 import EasterEggLanding from'./Easter-Egg-Landing'
-import bunny from '../images/210215_building_graphics_3808_bunny_rabbit.png'
+import legends from '../images/3014_legends-Card.png'
 
 function Legends() {
     return (
         <div>
             <EasterEggLanding 
-            img={bunny}
+            img={legends}
             Title="LEGENDS NEVER DIE"
-            info='For one of the branding exercises in our branding initiative, the participants were asked to bring in images that reflected who we are. One participant came back with an image of bunnies holding assault weapons: “Warm and fuzzy but ready to fight for our members.”. People really responded to it. We ended up removing the weapons, of course, but the bunny lives on.'
+            info='In the immortal words of Babe Ruth, “Heroes get remembered, but legends never die.”'
             floor="/lowerLevel"
             BackTo="Back to Lower Level"
             imgalt="Small bunny"

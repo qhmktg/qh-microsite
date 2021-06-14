@@ -25,7 +25,7 @@ function Footer() {
                         <div className="footer-link-items-secondary">
                             <a target='_blank' href='https://quantum-health.com/'>
                                 <img alt='quantum-health logo' className='Logo' src={colorLogo} /></a>
-                            <p>Copyright ©2021 Quantum Health. All Rights Reserved. </p>
+                            <p>Copyright © 2021 Quantum Health, Inc. </p>
                             <a href='https://quantum-health.com/Privacy-Policy.shtml' target='_blank'>Privacy Policy</a>  |
                             <a href='https://quantum-health.com/Terms.shtml' target='_blank'>  Terms of Use</a>  |
                             <a href='https://quantum-health.com/Accreditation.shtml' target='_blank'>  Accreditation</a>  |
